@@ -1810,11 +1810,11 @@ extension Elasticloadbalancingv2 {
         /// The name of the Availability Zone.
         public let zoneName: String?
         /// [Network Load Balancers] The static IP address.
-        public let loadBalancerAddresses: [LoadBalancerAddress]?
+        public let loadBalancerAddresses: [LoadBalancerAddress?]?
         /// The ID of the subnet.
         public let subnetId: String?
 
-        public init(zoneName: String? = nil, loadBalancerAddresses: [LoadBalancerAddress]? = nil, subnetId: String? = nil) {
+        public init(zoneName: String? = nil, loadBalancerAddresses: [LoadBalancerAddress?]? = nil, subnetId: String? = nil) {
             self.zoneName = zoneName
             self.loadBalancerAddresses = loadBalancerAddresses
             self.subnetId = subnetId
