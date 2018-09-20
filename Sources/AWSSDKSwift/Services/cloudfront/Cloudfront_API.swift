@@ -42,8 +42,8 @@ public struct Cloudfront {
         return try client.send(operation: "ListDistributionsByWebACLId2017_10_30", path: "/2017-10-30/distributionsByWebACLId/{WebACLId}", httpMethod: "GET", input: input)
     }
 
-    public func listDistributions20171030(_ input: ListDistributionsRequest) throws -> ListDistributionsResult {
-        return try client.send(operation: "ListDistributions2017_10_30", path: "/2017-10-30/distribution", httpMethod: "GET", input: input)
+    public func listDistributions(_ input: ListDistributionsRequest) throws -> ListDistributionsResult {
+        return try client.send(operation: "ListDistributions", path: "/2018-06-18/distribution", httpMethod: "GET", input: input)
     }
 
     public func listTagsForResource20171030(_ input: ListTagsForResourceRequest) throws -> ListTagsForResourceResult {
