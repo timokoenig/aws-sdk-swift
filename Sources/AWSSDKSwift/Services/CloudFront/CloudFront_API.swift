@@ -166,8 +166,8 @@ public struct CloudFront {
         return try client.send(operation: "GetStreamingDistribution2017_10_30", path: "/2017-10-30/streaming-distribution/{Id}", httpMethod: "GET", input: input)
     }
 
-    public func listDistributions20171030(_ input: ListDistributionsRequest) throws -> ListDistributionsResult {
-        return try client.send(operation: "ListDistributions2017_10_30", path: "/2017-10-30/distribution", httpMethod: "GET", input: input)
+    public func listDistributions(_ input: ListDistributionsRequest) throws -> ListDistributionsResult {
+        return try client.send(operation: "ListDistributions", path: "/2018-06-18/distribution", httpMethod: "GET", input: input)
     }
 
     public func listFieldLevelEncryptionConfigs20171030(_ input: ListFieldLevelEncryptionConfigsRequest) throws -> ListFieldLevelEncryptionConfigsResult {

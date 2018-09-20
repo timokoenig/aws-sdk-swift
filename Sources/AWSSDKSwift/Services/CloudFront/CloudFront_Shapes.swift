@@ -2037,20 +2037,20 @@ extension CloudFront {
     public struct CustomErrorResponse: AWSShape {
         public static var _members: [AWSShapeMember] = [
             AWSShapeMember(label: "ErrorCode", required: true, type: .integer), 
-            AWSShapeMember(label: "ResponseCode", required: false, type: .string), 
+            AWSShapeMember(label: "ResponseCode", required: false, type: .integer), 
             AWSShapeMember(label: "ResponsePagePath", required: false, type: .string), 
             AWSShapeMember(label: "ErrorCachingMinTTL", required: false, type: .long)
         ]
         /// The HTTP status code for which you want to specify a custom error page and/or a caching duration.
-        public let errorCode: Int32
+        public let errorCode: Int32?
         /// The HTTP status code that you want CloudFront to return to the viewer along with the custom error page. There are a variety of reasons that you might want CloudFront to return a status code different from the status code that your origin returned to CloudFront, for example:   Some Internet devices (some firewalls and corporate proxies, for example) intercept HTTP 4xx and 5xx and prevent the response from being returned to the viewer. If you substitute 200, the response typically won't be intercepted.   If you don't care about distinguishing among different client errors or server errors, you can specify 400 or 500 as the ResponseCode for all 4xx or 5xx errors.   You might want to return a 200 status code (OK) and static website so your customers don't know that your website is down.   If you specify a value for ResponseCode, you must also specify a value for ResponsePagePath. If you don't want to specify a value, include an empty element, &lt;ResponseCode&gt;, in the XML document.
-        public let responseCode: String?
+        public let responseCode: Int?
         /// The path to the custom error page that you want CloudFront to return to a viewer when your origin returns the HTTP status code specified by ErrorCode, for example, /4xx-errors/403-forbidden.html. If you want to store your objects and your custom error pages in different locations, your distribution must include a cache behavior for which the following is true:   The value of PathPattern matches the path to your custom error messages. For example, suppose you saved custom error pages for 4xx errors in an Amazon S3 bucket in a directory named /4xx-errors. Your distribution must include a cache behavior for which the path pattern routes requests for your custom error pages to that location, for example, /4xx-errors/*.    The value of TargetOriginId specifies the value of the ID element for the origin that contains your custom error pages.   If you specify a value for ResponsePagePath, you must also specify a value for ResponseCode. If you don't want to specify a value, include an empty element, &lt;ResponsePagePath&gt;, in the XML document. We recommend that you store custom error pages in an Amazon S3 bucket. If you store custom error pages on an HTTP server and the server starts to return 5xx errors, CloudFront can't get the files that you want to return to viewers because the origin server is unavailable.
         public let responsePagePath: String?
         /// The minimum amount of time, in seconds, that you want CloudFront to cache the HTTP status code specified in ErrorCode. When this time period has elapsed, CloudFront queries your origin to see whether the problem that caused the error has been resolved and the requested object is now available. If you don't want to specify a value, include an empty element, &lt;ErrorCachingMinTTL&gt;, in the XML document. For more information, see Customizing Error Responses in the Amazon CloudFront Developer Guide.
         public let errorCachingMinTTL: Int64?
 
-        public init(errorCode: Int32, responseCode: String? = nil, responsePagePath: String? = nil, errorCachingMinTTL: Int64? = nil) {
+        public init(errorCode: Int32, responseCode: Int? = nil, responsePagePath: String? = nil, errorCachingMinTTL: Int64? = nil) {
             self.errorCode = errorCode
             self.responseCode = responseCode
             self.responsePagePath = responsePagePath
@@ -2491,7 +2491,7 @@ extension CloudFront {
         public let isIPV6Enabled: Bool
         public let priceClass: PriceClass
         /// The comment originally specified when this distribution was created.
-        public let comment: String
+        public let comment: String?
         /// A complex type that contains zero or more CustomErrorResponses elements.
         public let customErrorResponses: CustomErrorResponses
         /// Whether the distribution is enabled to accept user requests for content.
@@ -2509,7 +2509,7 @@ extension CloudFront {
         /// A complex type that contains information about CNAMEs (alternate domain names), if any, for this distribution.
         public let aliases: Aliases
         /// The Web ACL Id (if any) associated with the distribution.
-        public let webACLId: String
+        public let webACLId: String?
         /// A complex type that describes the default cache behavior if you don't specify a CacheBehavior element or if files don't match any of the values of PathPattern in CacheBehavior elements. You must create exactly one default cache behavior.
         public let defaultCacheBehavior: DefaultCacheBehavior
 
@@ -2835,7 +2835,7 @@ extension CloudFront {
         /// A complex type that contains one DistributionSummary element for each distribution that was created by the current AWS account.
         public let items: DistributionSummaryList?
         /// The value you provided for the Marker request parameter.
-        public let marker: String
+        public let marker: String?
         /// A flag that indicates whether more distributions remain to be listed. If your results were truncated, you can make a follow-up pagination request using the Marker request parameter to retrieve more distributions in the list.
         public let isTruncated: Bool
         /// If IsTruncated is true, this element is present and contains the value you can use for the Marker request parameter to continue listing your distributions where they left off. 
@@ -2866,7 +2866,27 @@ extension CloudFront {
         public static var _members: [AWSShapeMember] = [
             AWSShapeMember(label: "Id", location: .uri(locationName: "Id"), required: true, type: .string)
         ]
-        /// Get the ID for the field-level encryption profile configuration information.
+        ///  Specify the maximum HTTP version that you want viewers to use to communicate with CloudFront. The default value for new web distributions is http2. Viewers that don't support HTTP/2 will automatically use an earlier version.
+        public let httpVersion: HttpVersion
+        /// A complex type that contains zero or more CustomErrorResponses elements.
+        public let customErrorResponses: CustomErrorResponses
+        /// A complex type that contains information about origins for this distribution.
+        public let origins: Origins
+        /// The comment originally specified when this distribution was created.
+        public let comment: String?
+        /// Whether the distribution is enabled to accept user requests for content.
+        public let enabled: Bool
+        /// The Web ACL Id (if any) associated with the distribution.
+        public let webACLId: String?
+        /// The ARN (Amazon Resource Name) for the distribution. For example: arn:aws:cloudfront::123456789012:distribution/EDFDVBD632BHDS5, where 123456789012 is your AWS account ID.
+        public let arn: String
+        /// Whether CloudFront responds to IPv6 DNS requests with an IPv6 address for your distribution.
+        public let isIPV6Enabled: Bool
+        public let restrictions: Restrictions
+        /// The date and time the distribution was last modified.
+        public let lastModifiedTime: TimeStamp
+        public let viewerCertificate: ViewerCertificate
+        /// The identifier for the distribution. For example: EDFDVBD632BHDS5.
         public let id: String
 
         public init(id: String) {
@@ -2987,17 +3007,30 @@ extension CloudFront {
             AWSShapeMember(label: "Id", location: .uri(locationName: "Id"), required: true, type: .string), 
             AWSShapeMember(label: "StreamingDistributionConfig", location: .body(locationName: "StreamingDistributionConfig"), required: true, type: .structure)
         ]
-        /// The value of the ETag header that you received when retrieving the streaming distribution's configuration. For example: E2QWRUHAPOMQZL.
-        public let ifMatch: String?
-        /// The streaming distribution's id.
-        public let id: String
-        /// The streaming distribution's configuration information.
-        public let streamingDistributionConfig: StreamingDistributionConfig
+        /// The HTTP status code that you want CloudFront to return to the viewer along with the custom error page. There are a variety of reasons that you might want CloudFront to return a status code different from the status code that your origin returned to CloudFront, for example:   Some Internet devices (some firewalls and corporate proxies, for example) intercept HTTP 4xx and 5xx and prevent the response from being returned to the viewer. If you substitute 200, the response typically won't be intercepted.   If you don't care about distinguishing among different client errors or server errors, you can specify 400 or 500 as the ResponseCode for all 4xx or 5xx errors.   You might want to return a 200 status code (OK) and static website so your customers don't know that your website is down.   If you specify a value for ResponseCode, you must also specify a value for ResponsePagePath. If you don't want to specify a value, include an empty element, &lt;ResponseCode&gt;, in the XML document.
+        public let responseCode: Int?
+        /// The minimum amount of time, in seconds, that you want CloudFront to cache the HTTP status code specified in ErrorCode. When this time period has elapsed, CloudFront queries your origin to see whether the problem that caused the error has been resolved and the requested object is now available. If you don't want to specify a value, include an empty element, &lt;ErrorCachingMinTTL&gt;, in the XML document. For more information, see Customizing Error Responses in the Amazon CloudFront Developer Guide.
+        public let errorCachingMinTTL: Int64?
+        /// The HTTP status code for which you want to specify a custom error page and/or a caching duration.
+        public let errorCode: Int32?
+        /// The path to the custom error page that you want CloudFront to return to a viewer when your origin returns the HTTP status code specified by ErrorCode, for example, /4xx-errors/403-forbidden.html. If you want to store your objects and your custom error pages in different locations, your distribution must include a cache behavior for which the following is true:   The value of PathPattern matches the path to your custom error messages. For example, suppose you saved custom error pages for 4xx errors in an Amazon S3 bucket in a directory named /4xx-errors. Your distribution must include a cache behavior for which the path pattern routes requests for your custom error pages to that location, for example, /4xx-errors/*.    The value of TargetOriginId specifies the value of the ID element for the origin that contains your custom error pages.   If you specify a value for ResponsePagePath, you must also specify a value for ResponseCode. If you don't want to specify a value, include an empty element, &lt;ResponsePagePath&gt;, in the XML document. We recommend that you store custom error pages in an Amazon S3 bucket. If you store custom error pages on an HTTP server and the server starts to return 5xx errors, CloudFront can't get the files that you want to return to viewers because the origin server is unavailable.
+        public let responsePagePath: String?
 
-        public init(ifMatch: String? = nil, id: String, streamingDistributionConfig: StreamingDistributionConfig) {
-            self.ifMatch = ifMatch
-            self.id = id
-            self.streamingDistributionConfig = streamingDistributionConfig
+        public init(responseCode: Int? = nil, errorCachingMinTTL: Int64? = nil, errorCode: Int32, responsePagePath: String? = nil) {
+            self.responseCode = responseCode
+            self.errorCachingMinTTL = errorCachingMinTTL
+            self.errorCode = errorCode
+            self.responsePagePath = responsePagePath
+        }
+
+        private enum CodingKeys: String, CodingKey {
+            case responseCode = "ResponseCode"
+            case errorCachingMinTTL = "ErrorCachingMinTTL"
+            case errorCode = "ErrorCode"
+            case responsePagePath = "ResponsePagePath"
+        }
+    }
+
         }
 
         private enum CodingKeys: String, CodingKey {
@@ -3007,10 +3040,9 @@ extension CloudFront {
         }
     }
 
-    public enum GeoRestrictionType: String, CustomStringConvertible, Codable {
-        case blacklist = "blacklist"
-        case whitelist = "whitelist"
-        case none = "none"
+    public enum HttpVersion: String, CustomStringConvertible, Codable {
+        case http11 = "HTTP1_1"
+        case http2 = "HTTP2"
         public var description: String { return self.rawValue }
     }
 
@@ -4272,7 +4304,7 @@ extension CloudFront {
         /// The DNS name of the Amazon S3 origin. 
         public let domainName: String
         /// The CloudFront origin access identity to associate with the RTMP distribution. Use an origin access identity to configure the distribution so that end users can only access objects in an Amazon S3 bucket through CloudFront. If you want end users to be able to access objects using either the CloudFront URL or the Amazon S3 URL, specify an empty OriginAccessIdentity element. To delete the origin access identity from an existing distribution, update the distribution configuration and include an empty OriginAccessIdentity element. To replace the origin access identity, update the distribution configuration and specify the new origin access identity. For more information, see Using an Origin Access Identity to Restrict Access to Your Amazon S3 Content in the Amazon Amazon CloudFront Developer Guide.
-        public let originAccessIdentity: String
+        public let originAccessIdentity: String?
 
         public init(domainName: String, originAccessIdentity: String) {
             self.domainName = domainName
