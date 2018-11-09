@@ -1019,7 +1019,7 @@ extension ELBV2 {
         /// The name of the Availability Zone.
         public let zoneName: String?
         /// [Network Load Balancers] The static IP address.
-        public let loadBalancerAddresses: [LoadBalancerAddress]?
+        public let loadBalancerAddresses: [LoadBalancerAddress?]?
 
         public init(subnetId: String? = nil, zoneName: String? = nil, loadBalancerAddresses: [LoadBalancerAddress]? = nil) {
             self.subnetId = subnetId

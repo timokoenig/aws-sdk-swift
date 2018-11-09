@@ -346,9 +346,9 @@ extension ELB {
         /// The name of the security group.
         public let groupName: String?
         /// The owner of the security group.
-        public let ownerAlias: Int32?
+        public let ownerAlias: Int?
 
-        public init(groupName: String? = nil, ownerAlias: Int32? = nil) {
+        public init(groupName: String? = nil, ownerAlias: Int? = nil) {
             self.groupName = groupName
             self.ownerAlias = ownerAlias
         }

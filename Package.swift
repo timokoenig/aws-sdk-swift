@@ -124,7 +124,7 @@ let package = Package(
         .library(name: "ResourceGroupsTaggingAPI", targets: ["ResourceGroupsTaggingAPI"]),
         .library(name: "Route53", targets: ["Route53"]),
         .library(name: "Route53Domains", targets: ["Route53Domains"]),
-        .library(name: "S3", targets: ["S3"]),
+        .library(name: "S3", targets: ["S3", "S3Middleware"]),
         .library(name: "SES", targets: ["SES"]),
         .library(name: "SFN", targets: ["SFN"]),
         .library(name: "SMS", targets: ["SMS"]),
@@ -154,7 +154,7 @@ let package = Package(
         .library(name: "XRay", targets: ["XRay"])
     ],
     dependencies: [
-        .package(url: "https://github.com/swift-aws/aws-sdk-swift-core.git", .upToNextMajor(from: "2.0.0-rc.1")),
+        .package(url: "https://github.com/swift-aws/aws-sdk-swift-core.git", .branch("yasumoto-post-request")),
         .package(url: "https://github.com/IBM-Swift/SwiftyJSON.git", .upToNextMajor(from: "17.0.2"))
     ],
     targets: [
