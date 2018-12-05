@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>STS Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/STS" class="dashAnchor"></a>
+    <a title="STS Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (44% documented)</p>
+        <p class="header-right"><a href="https://github.com/swift-aws/aws-sdk-swift"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        STS Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../ACM.html">ACM</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ACMPCA.html">ACMPCA</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../AlexaForBusiness.html">AlexaForBusiness</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../APIGateway.html">APIGateway</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ApplicationAutoScaling.html">ApplicationAutoScaling</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ApplicationDiscoveryService.html">ApplicationDiscoveryService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../AppStream.html">AppStream</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../AppSync.html">AppSync</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Athena.html">Athena</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../AutoScaling.html">AutoScaling</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../AutoScalingPlans.html">AutoScalingPlans</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Batch.html">Batch</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Budgets.html">Budgets</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Cloud9.html">Cloud9</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CloudDirectory.html">CloudDirectory</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CloudFormation.html">CloudFormation</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CloudFront.html">CloudFront</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CloudHSM.html">CloudHSM</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CloudHSMV2.html">CloudHSMV2</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CloudSearch.html">CloudSearch</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CloudSearchDomain.html">CloudSearchDomain</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CloudTrail.html">CloudTrail</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CloudWatch.html">CloudWatch</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CloudWatchEvents.html">CloudWatchEvents</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CloudWatchLogs.html">CloudWatchLogs</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CodeBuild.html">CodeBuild</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CodeCommit.html">CodeCommit</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CodeDeploy.html">CodeDeploy</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CodePipeline.html">CodePipeline</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CodeStar.html">CodeStar</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CognitoIdentity.html">CognitoIdentity</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CognitoIdentityProvider.html">CognitoIdentityProvider</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CognitoSync.html">CognitoSync</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Comprehend.html">Comprehend</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ConfigService.html">ConfigService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Connect.html">Connect</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CostandUsageReportService.html">CostandUsageReportService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CostExplorer.html">CostExplorer</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../DatabaseMigrationService.html">DatabaseMigrationService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../DataPipeline.html">DataPipeline</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../DAX.html">DAX</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../DeviceFarm.html">DeviceFarm</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../DirectConnect.html">DirectConnect</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../DirectoryService.html">DirectoryService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../DLM.html">DLM</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../DynamoDB.html">DynamoDB</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../DynamoDBStreams.html">DynamoDBStreams</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../EC2.html">EC2</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ECR.html">ECR</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ECS.html">ECS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../EFS.html">EFS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../EKS.html">EKS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ElastiCache.html">ElastiCache</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ElasticBeanstalk.html">ElasticBeanstalk</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ElasticsearchService.html">ElasticsearchService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ElasticTranscoder.html">ElasticTranscoder</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ELB.html">ELB</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ELBV2.html">ELBV2</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../EMR.html">EMR</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Firehose.html">Firehose</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../FMS.html">FMS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../GameLift.html">GameLift</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Glacier.html">Glacier</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Glue.html">Glue</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Greengrass.html">Greengrass</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../GuardDuty.html">GuardDuty</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Health.html">Health</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../IAM.html">IAM</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ImportExport.html">ImportExport</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Inspector.html">Inspector</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../IoT.html">IoT</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../IoT1ClickDevicesService.html">IoT1ClickDevicesService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../IoT1ClickProjects.html">IoT1ClickProjects</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../IoTAnalytics.html">IoTAnalytics</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../IoTDataPlane.html">IoTDataPlane</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../IoTJobsDataPlane.html">IoTJobsDataPlane</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Kinesis.html">Kinesis</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../KinesisAnalytics.html">KinesisAnalytics</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../KinesisVideo.html">KinesisVideo</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../KinesisVideoArchivedMedia.html">KinesisVideoArchivedMedia</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../KinesisVideoMedia.html">KinesisVideoMedia</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../KMS.html">KMS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Lambda.html">Lambda</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../LexModelBuildingService.html">LexModelBuildingService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../LexRuntimeService.html">LexRuntimeService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Lightsail.html">Lightsail</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../MachineLearning.html">MachineLearning</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Macie.html">Macie</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../MarketplaceCommerceAnalytics.html">MarketplaceCommerceAnalytics</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../MarketplaceEntitlementService.html">MarketplaceEntitlementService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../MarketplaceMetering.html">MarketplaceMetering</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../MediaConvert.html">MediaConvert</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../MediaLive.html">MediaLive</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../MediaPackage.html">MediaPackage</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../MediaStore.html">MediaStore</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../MediaStoreData.html">MediaStoreData</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../MediaTailor.html">MediaTailor</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../MigrationHub.html">MigrationHub</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Mobile.html">Mobile</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../MobileAnalytics.html">MobileAnalytics</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../MQ.html">MQ</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../MTurk.html">MTurk</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Neptune.html">Neptune</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../OpsWorks.html">OpsWorks</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../OpsWorksCM.html">OpsWorksCM</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Organizations.html">Organizations</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../PI.html">PI</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Pinpoint.html">Pinpoint</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Polly.html">Polly</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Pricing.html">Pricing</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../RDS.html">RDS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Redshift.html">Redshift</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Rekognition.html">Rekognition</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ResourceGroups.html">ResourceGroups</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ResourceGroupsTaggingAPI.html">ResourceGroupsTaggingAPI</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Route53.html">Route53</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Route53Domains.html">Route53Domains</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../S3.html">S3</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../SageMaker.html">SageMaker</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../SageMakerRuntime.html">SageMakerRuntime</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../SecretsManager.html">SecretsManager</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ServerlessApplicationRepository.html">ServerlessApplicationRepository</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ServiceCatalog.html">ServiceCatalog</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ServiceDiscovery.html">ServiceDiscovery</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../SES.html">SES</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../SFN.html">SFN</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Shield.html">Shield</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../SimpleDB.html">SimpleDB</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../SMS.html">SMS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Snowball.html">Snowball</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../SNS.html">SNS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../SQS.html">SQS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../SSM.html">SSM</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../StorageGateway.html">StorageGateway</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../STS.html">STS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Support.html">Support</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../SWF.html">SWF</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../TranscribeService.html">TranscribeService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Translate.html">Translate</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../WAF.html">WAF</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../WAFRegional.html">WAFRegional</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../WorkDocs.html">WorkDocs</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../WorkMail.html">WorkMail</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../WorkSpaces.html">WorkSpaces</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../XRay.html">XRay</a>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>STS</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">STS</span></code></pre>
+
+                </div>
+              </div>
+            <p>AWS Security Token Service The AWS Security Token Service (STS) is a web service that enables you to request temporary, limited-privilege credentials for AWS Identity and Access Management (IAM) users or for users that you authenticate (federated users). This guide provides descriptions of the STS API. For more detailed information about using this service, go to Temporary Security Credentials.    As an alternative to using the API, you can use one of the AWS SDKs, which consist of libraries and sample code for various programming languages and platforms (Java, Ruby, .NET, iOS, Android, etc.). The SDKs provide a convenient way to create programmatic access to STS. For example, the SDKs take care of cryptographically signing requests, managing errors, and retrying requests automatically. For information about the AWS SDKs, including how to download and install them, see the Tools for Amazon Web Services page.   For information about setting up signatures and authorization through the API, go to Signing AWS API Requests in the AWS General Reference. For general information about the Query API, go to Making Query Requests in Using IAM. For information about using security tokens with other AWS products, go to AWS Services That Work with IAM in the IAM User Guide.  If you&rsquo;re new to AWS and need additional technical information about a specific AWS product, you can find the product&rsquo;s technical documentation at <a href="http://aws.amazon.com/documentation/">http://aws.amazon.com/documentation/</a>.   Endpoints  The AWS Security Token Service (STS) has a default endpoint of <a href="https://sts.amazonaws.com">https://sts.amazonaws.com</a> that maps to the US East (N. Virginia) region. Additional regions are available and are activated by default. For more information, see Activating and Deactivating AWS STS in an AWS Region in the IAM User Guide. For information about STS endpoints, see Regions and Endpoints in the AWS General Reference.  Recording API requests  STS supports AWS CloudTrail, which is a service that records AWS calls for your AWS account and delivers log files to an Amazon S3 bucket. By using information collected by CloudTrail, you can determine what requests were successfully made to STS, who made the request, when it was made, and so on. To learn more about CloudTrail, including how to turn it on and find your log files, see the AWS CloudTrail User Guide.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3STSAAV11accessKeyId012secretAccessC06region8endpointABSSSg_AG15AWSSDKSwiftCore6RegionOSgAGtcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(accessKeyId:secretAccessKey:region:endpoint:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3STSAAV11accessKeyId012secretAccessC06region8endpointABSSSg_AG15AWSSDKSwiftCore6RegionOSgAGtcfc">init(accessKeyId:secretAccessKey:region:endpoint:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">accessKeyId</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">secretAccessKey</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">region</span><span class="p">:</span> <span class="kt">AWSSDKSwiftCore</span><span class="o">.</span><span class="kt">Region</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">endpoint</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3STSAAV17getCallerIdentityyAB03GetcD8ResponseVAB0ecD7RequestVKF"></a>
+                    <a name="//apple_ref/swift/Method/getCallerIdentity(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3STSAAV17getCallerIdentityyAB03GetcD8ResponseVAB0ecD7RequestVKF">getCallerIdentity(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns details about the IAM identity whose credentials are used to call the API.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getCallerIdentity</span><span class="p">(</span><span class="n">_</span> <span class="nv">input</span><span class="p">:</span> <span class="kt"><a href="../Structs/STS.html#/s:3STSAAV24GetCallerIdentityRequestV">GetCallerIdentityRequest</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/STS/GetCallerIdentityResponse.html">GetCallerIdentityResponse</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3STSAAV18assumeRoleWithSAMLyAB06AssumecD12SAMLResponseVAB0fcD11SAMLRequestVKF"></a>
+                    <a name="//apple_ref/swift/Method/assumeRoleWithSAML(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3STSAAV18assumeRoleWithSAMLyAB06AssumecD12SAMLResponseVAB0fcD11SAMLRequestVKF">assumeRoleWithSAML(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a set of temporary security credentials for users who have been authenticated via a SAML authentication response. This operation provides a mechanism for tying an enterprise identity store or directory to role-based AWS access without user-specific credentials or configuration. For a comparison of AssumeRoleWithSAML with the other APIs that produce temporary credentials, see Requesting Temporary Security Credentials and Comparing the AWS STS APIs in the IAM User Guide. The temporary security credentials returned by this operation consist of an access key ID, a secret access key, and a security token. Applications can use these temporary security credentials to sign calls to AWS services. By default, the temporary security credentials created by AssumeRoleWithSAML last for one hour. However, you can use the optional DurationSeconds parameter to specify the duration of your session. Your role session lasts for the duration that you specify, or until the time specified in the SAML authentication response&rsquo;s SessionNotOnOrAfter value, whichever is shorter. You can provide a DurationSeconds value from 900 seconds (15 minutes) up to the maximum session duration setting for the role. This setting can have a value from 1 hour to 12 hours. To learn how to view the maximum value for your role, see View the Maximum Session Duration Setting for a Role in the IAM User Guide. The maximum session duration limit applies when you use the AssumeRole* API operations or the assume-role* CLI operations but does not apply when you use those operations to create a console URL. For more information, see Using IAM Roles in the IAM User Guide. The temporary security credentials created by AssumeRoleWithSAML can be used to make API calls to any AWS service with the following exception: you cannot call the STS service&rsquo;s GetFederationToken or GetSessionToken APIs. Optionally, you can pass an IAM access policy to this operation. If you choose not to pass a policy, the temporary security credentials that are returned by the operation have the permissions that are defined in the access policy of the role that is being assumed. If you pass a policy to this operation, the temporary security credentials that are returned by the operation have the permissions that are allowed by the intersection of both the access policy of the role that is being assumed,  and  the policy that you pass. This means that both policies must grant the permission for the action to be allowed. This gives you a way to further restrict the permissions for the resulting temporary security credentials. You cannot use the passed policy to grant permissions that are in excess of those allowed by the access policy of the role that is being assumed. For more information, see Permissions for AssumeRole, AssumeRoleWithSAML, and AssumeRoleWithWebIdentity in the IAM User Guide. Before your application can call AssumeRoleWithSAML, you must configure your SAML identity provider (IdP) to issue the claims required by AWS. Additionally, you must use AWS Identity and Access Management (IAM) to create a SAML provider entity in your AWS account that represents your identity provider, and create an IAM role that specifies this SAML provider in its trust policy.  Calling AssumeRoleWithSAML does not require the use of AWS security credentials. The identity of the caller is validated by using keys in the metadata document that is uploaded for the SAML provider entity for your identity provider.   Calling AssumeRoleWithSAML can result in an entry in your AWS CloudTrail logs. The entry includes the value in the NameID element of the SAML assertion. We recommend that you use a NameIDType that is not associated with any personally identifiable information (PII). For example, you could instead use the Persistent Identifier (urn:oasis:names:tc:SAML:2.0:nameid-format:persistent).  For more information, see the following resources:    About SAML 2.0-based Federation in the IAM User Guide.     Creating SAML Identity Providers in the IAM User Guide.     Configuring a Relying Party and Claims in the IAM User Guide.     Creating a Role for SAML 2.0 Federation in the IAM User Guide.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">assumeRoleWithSAML</span><span class="p">(</span><span class="n">_</span> <span class="nv">input</span><span class="p">:</span> <span class="kt"><a href="../Structs/STS/AssumeRoleWithSAMLRequest.html">AssumeRoleWithSAMLRequest</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/STS/AssumeRoleWithSAMLResponse.html">AssumeRoleWithSAMLResponse</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3STSAAV18getFederationTokenyAB03GetcD8ResponseVAB0ecD7RequestVKF"></a>
+                    <a name="//apple_ref/swift/Method/getFederationToken(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3STSAAV18getFederationTokenyAB03GetcD8ResponseVAB0ecD7RequestVKF">getFederationToken(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a set of temporary security credentials (consisting of an access key ID, a secret access key, and a security token) for a federated user. A typical use is in a proxy application that gets temporary security credentials on behalf of distributed applications inside a corporate network. Because you must call the GetFederationToken action using the long-term security credentials of an IAM user, this call is appropriate in contexts where those credentials can be safely stored, usually in a server-based application. For a comparison of GetFederationToken with the other APIs that produce temporary credentials, see Requesting Temporary Security Credentials and Comparing the AWS STS APIs in the IAM User Guide.  If you are creating a mobile-based or browser-based app that can authenticate users using a web identity provider like Login with Amazon, Facebook, Google, or an OpenID Connect-compatible identity provider, we recommend that you use Amazon Cognito or AssumeRoleWithWebIdentity. For more information, see Federation Through a Web-based Identity Provider.  The GetFederationToken action must be called by using the long-term AWS security credentials of an IAM user. You can also call GetFederationToken using the security credentials of an AWS root account, but we do not recommended it. Instead, we recommend that you create an IAM user for the purpose of the proxy application and then attach a policy to the IAM user that limits federated users to only the actions and resources that they need access to. For more information, see IAM Best Practices in the IAM User Guide.  The temporary security credentials that are obtained by using the long-term credentials of an IAM user are valid for the specified duration, from 900 seconds (15 minutes) up to a maximium of 129600 seconds (36 hours). The default is 43200 seconds (12 hours). Temporary credentials that are obtained by using AWS root account credentials have a maximum duration of 3600 seconds (1 hour). The temporary security credentials created by GetFederationToken can be used to make API calls to any AWS service with the following exceptions:   You cannot use these credentials to call any IAM APIs.   You cannot call any STS APIs except GetCallerIdentity.    Permissions  The permissions for the temporary security credentials returned by GetFederationToken are determined by a combination of the following:    The policy or policies that are attached to the IAM user whose credentials are used to call GetFederationToken.   The policy that is passed as a parameter in the call.   The passed policy is attached to the temporary security credentials that result from the GetFederationToken API call&ndash;that is, to the federated user. When the federated user makes an AWS request, AWS evaluates the policy attached to the federated user in combination with the policy or policies attached to the IAM user whose credentials were used to call GetFederationToken. AWS allows the federated user&rsquo;s request only when both the federated user  and  the IAM user are explicitly allowed to perform the requested action. The passed policy cannot grant more permissions than those that are defined in the IAM user policy. A typical use case is that the permissions of the IAM user whose credentials are used to call GetFederationToken are designed to allow access to all the actions and resources that any federated user will need. Then, for individual users, you pass a policy to the operation that scopes down the permissions to a level that&rsquo;s appropriate to that individual user, using a policy that allows only a subset of permissions that are granted to the IAM user.  If you do not pass a policy, the resulting temporary security credentials have no effective permissions. The only exception is when the temporary security credentials are used to access a resource that has a resource-based policy that specifically allows the federated user to access the resource. For more information about how permissions work, see Permissions for GetFederationToken. For information about using GetFederationToken to create temporary security credentials, see GetFederationToken—Federation Through a Custom Identity Broker.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getFederationToken</span><span class="p">(</span><span class="n">_</span> <span class="nv">input</span><span class="p">:</span> <span class="kt"><a href="../Structs/STS/GetFederationTokenRequest.html">GetFederationTokenRequest</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/STS/GetFederationTokenResponse.html">GetFederationTokenResponse</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3STSAAV26decodeAuthorizationMessageyAB06DecodecD8ResponseVAB0ecD7RequestVKF"></a>
+                    <a name="//apple_ref/swift/Method/decodeAuthorizationMessage(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3STSAAV26decodeAuthorizationMessageyAB06DecodecD8ResponseVAB0ecD7RequestVKF">decodeAuthorizationMessage(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Decodes additional information about the authorization status of a request from an encoded message returned in response to an AWS request. For example, if a user is not authorized to perform an action that he or she has requested, the request returns a Client.UnauthorizedOperation response (an HTTP 403 response). Some AWS actions additionally return an encoded message that can provide details about this authorization failure.   Only certain AWS actions return an encoded authorization message. The documentation for an individual action indicates whether that action returns an encoded message in addition to returning an HTTP code.  The message is encoded because the details of the authorization status can constitute privileged information that the user who requested the action should not see. To decode an authorization status message, a user must be granted permissions via an IAM policy to request the DecodeAuthorizationMessage (sts:DecodeAuthorizationMessage) action.  The decoded message includes the following type of information:   Whether the request was denied due to an explicit deny or due to the absence of an explicit allow. For more information, see Determining Whether a Request is Allowed or Denied in the IAM User Guide.    The principal who made the request.   The requested action.   The requested resource.   The values of condition keys in the context of the user&rsquo;s request.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">decodeAuthorizationMessage</span><span class="p">(</span><span class="n">_</span> <span class="nv">input</span><span class="p">:</span> <span class="kt"><a href="../Structs/STS/DecodeAuthorizationMessageRequest.html">DecodeAuthorizationMessageRequest</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/STS/DecodeAuthorizationMessageResponse.html">DecodeAuthorizationMessageResponse</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3STSAAV25assumeRoleWithWebIdentityyAB06AssumecdeF8ResponseVAB0gcdeF7RequestVKF"></a>
+                    <a name="//apple_ref/swift/Method/assumeRoleWithWebIdentity(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3STSAAV25assumeRoleWithWebIdentityyAB06AssumecdeF8ResponseVAB0gcdeF7RequestVKF">assumeRoleWithWebIdentity(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a set of temporary security credentials for users who have been authenticated in a mobile or web application with a web identity provider, such as Amazon Cognito, Login with Amazon, Facebook, Google, or any OpenID Connect-compatible identity provider.  For mobile applications, we recommend that you use Amazon Cognito. You can use Amazon Cognito with the AWS SDK for iOS and the AWS SDK for Android to uniquely identify a user and supply the user with a consistent identity throughout the lifetime of an application. To learn more about Amazon Cognito, see Amazon Cognito Overview in the AWS SDK for Android Developer Guide guide and Amazon Cognito Overview in the AWS SDK for iOS Developer Guide.  Calling AssumeRoleWithWebIdentity does not require the use of AWS security credentials. Therefore, you can distribute an application (for example, on mobile devices) that requests temporary security credentials without including long-term AWS credentials in the application, and without deploying server-based proxy services that use long-term AWS credentials. Instead, the identity of the caller is validated by using a token from the web identity provider. For a comparison of AssumeRoleWithWebIdentity with the other APIs that produce temporary credentials, see Requesting Temporary Security Credentials and Comparing the AWS STS APIs in the IAM User Guide. The temporary security credentials returned by this API consist of an access key ID, a secret access key, and a security token. Applications can use these temporary security credentials to sign calls to AWS service APIs. By default, the temporary security credentials created by AssumeRoleWithWebIdentity last for one hour. However, you can use the optional DurationSeconds parameter to specify the duration of your session. You can provide a value from 900 seconds (15 minutes) up to the maximum session duration setting for the role. This setting can have a value from 1 hour to 12 hours. To learn how to view the maximum value for your role, see View the Maximum Session Duration Setting for a Role in the IAM User Guide. The maximum session duration limit applies when you use the AssumeRole* API operations or the assume-role* CLI operations but does not apply when you use those operations to create a console URL. For more information, see Using IAM Roles in the IAM User Guide.  The temporary security credentials created by AssumeRoleWithWebIdentity can be used to make API calls to any AWS service with the following exception: you cannot call the STS service&rsquo;s GetFederationToken or GetSessionToken APIs. Optionally, you can pass an IAM access policy to this operation. If you choose not to pass a policy, the temporary security credentials that are returned by the operation have the permissions that are defined in the access policy of the role that is being assumed. If you pass a policy to this operation, the temporary security credentials that are returned by the operation have the permissions that are allowed by both the access policy of the role that is being assumed,  and  the policy that you pass. This gives you a way to further restrict the permissions for the resulting temporary security credentials. You cannot use the passed policy to grant permissions that are in excess of those allowed by the access policy of the role that is being assumed. For more information, see Permissions for AssumeRole, AssumeRoleWithSAML, and AssumeRoleWithWebIdentity in the IAM User Guide. Before your application can call AssumeRoleWithWebIdentity, you must have an identity token from a supported identity provider and create a role that the application can assume. The role that your application assumes must trust the identity provider that is associated with the identity token. In other words, the identity provider must be specified in the role&rsquo;s trust policy.   Calling AssumeRoleWithWebIdentity can result in an entry in your AWS CloudTrail logs. The entry includes the Subject of the provided Web Identity Token. We recommend that you avoid using any personally identifiable information (PII) in this field. For example, you could instead use a GUID or a pairwise identifier, as suggested in the OIDC specification.  For more information about how to use web identity federation and the AssumeRoleWithWebIdentity API, see the following resources:     Using Web Identity Federation APIs for Mobile Apps and Federation Through a Web-based Identity Provider.      Web Identity Federation Playground. This interactive website lets you walk through the process of authenticating via Login with Amazon, Facebook, or Google, getting temporary security credentials, and then using those credentials to make a request to AWS.     AWS SDK for iOS and AWS SDK for Android. These toolkits contain sample apps that show how to invoke the identity providers, and then how to use the information from these providers to get and use temporary security credentials.     Web Identity Federation with Mobile Applications. This article discusses web identity federation and shows an example of how to use web identity federation to get access to content in Amazon S3.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">assumeRoleWithWebIdentity</span><span class="p">(</span><span class="n">_</span> <span class="nv">input</span><span class="p">:</span> <span class="kt"><a href="../Structs/STS/AssumeRoleWithWebIdentityRequest.html">AssumeRoleWithWebIdentityRequest</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/STS/AssumeRoleWithWebIdentityResponse.html">AssumeRoleWithWebIdentityResponse</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3STSAAV10assumeRoleyAB06AssumeC8ResponseVAB0dC7RequestVKF"></a>
+                    <a name="//apple_ref/swift/Method/assumeRole(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3STSAAV10assumeRoleyAB06AssumeC8ResponseVAB0dC7RequestVKF">assumeRole(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a set of temporary security credentials (consisting of an access key ID, a secret access key, and a security token) that you can use to access AWS resources that you might not normally have access to. Typically, you use AssumeRole for cross-account access or federation. For a comparison of AssumeRole with the other APIs that produce temporary credentials, see Requesting Temporary Security Credentials and Comparing the AWS STS APIs in the IAM User Guide.  Important: You cannot call AssumeRole by using AWS root account credentials; access is denied. You must use credentials for an IAM user or an IAM role to call AssumeRole.  For cross-account access, imagine that you own multiple accounts and need to access resources in each account. You could create long-term credentials in each account to access those resources. However, managing all those credentials and remembering which one can access which account can be time consuming. Instead, you can create one set of long-term credentials in one account and then use temporary security credentials to access all the other accounts by assuming roles in those accounts. For more information about roles, see IAM Roles (Delegation and Federation) in the IAM User Guide.  For federation, you can, for example, grant single sign-on access to the AWS Management Console. If you already have an identity and authentication system in your corporate network, you don&rsquo;t have to recreate user identities in AWS in order to grant those user identities access to AWS. Instead, after a user has been authenticated, you call AssumeRole (and specify the role with the appropriate permissions) to get temporary security credentials for that user. With those temporary security credentials, you construct a sign-in URL that users can use to access the console. For more information, see Common Scenarios for Temporary Credentials in the IAM User Guide. By default, the temporary security credentials created by AssumeRole last for one hour. However, you can use the optional DurationSeconds parameter to specify the duration of your session. You can provide a value from 900 seconds (15 minutes) up to the maximum session duration setting for the role. This setting can have a value from 1 hour to 12 hours. To learn how to view the maximum value for your role, see View the Maximum Session Duration Setting for a Role in the IAM User Guide. The maximum session duration limit applies when you use the AssumeRole* API operations or the assume-role* CLI operations but does not apply when you use those operations to create a console URL. For more information, see Using IAM Roles in the IAM User Guide. The temporary security credentials created by AssumeRole can be used to make API calls to any AWS service with the following exception: you cannot call the STS service&rsquo;s GetFederationToken or GetSessionToken APIs. Optionally, you can pass an IAM access policy to this operation. If you choose not to pass a policy, the temporary security credentials that are returned by the operation have the permissions that are defined in the access policy of the role that is being assumed. If you pass a policy to this operation, the temporary security credentials that are returned by the operation have the permissions that are allowed by both the access policy of the role that is being assumed,  and  the policy that you pass. This gives you a way to further restrict the permissions for the resulting temporary security credentials. You cannot use the passed policy to grant permissions that are in excess of those allowed by the access policy of the role that is being assumed. For more information, see Permissions for AssumeRole, AssumeRoleWithSAML, and AssumeRoleWithWebIdentity in the IAM User Guide. To assume a role, your AWS account must be trusted by the role. The trust relationship is defined in the role&rsquo;s trust policy when the role is created. That trust policy states which accounts are allowed to delegate access to this account&rsquo;s role.  The user who wants to access the role must also have permissions delegated from the role&rsquo;s administrator. If the user is in a different account than the role, then the user&rsquo;s administrator must attach a policy that allows the user to call AssumeRole on the ARN of the role in the other account. If the user is in the same account as the role, then you can either attach a policy to the user (identical to the previous different account user), or you can add the user as a principal directly in the role&rsquo;s trust policy. In this case, the trust policy acts as the only resource-based policy in IAM, and users in the same account as the role do not need explicit permission to assume the role. For more information about trust policies and resource-based policies, see IAM Policies in the IAM User Guide.  Using MFA with AssumeRole  You can optionally include multi-factor authentication (MFA) information when you call AssumeRole. This is useful for cross-account scenarios in which you want to make sure that the user who is assuming the role has been authenticated using an AWS MFA device. In that scenario, the trust policy of the role being assumed includes a condition that tests for MFA authentication; if the caller does not include valid MFA information, the request to assume the role is denied. The condition in a trust policy that tests for MFA authentication might look like the following example.  <q>Condition</q>: {<q>Bool</q>: {<q>aws:MultiFactorAuthPresent</q>: true}}  For more information, see Configuring MFA-Protected API Access in the IAM User Guide guide. To use MFA with AssumeRole, you pass values for the SerialNumber and TokenCode parameters. The SerialNumber value identifies the user&rsquo;s hardware or virtual MFA device. The TokenCode is the time-based one-time password (TOTP) that the MFA devices produces.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">assumeRole</span><span class="p">(</span><span class="n">_</span> <span class="nv">input</span><span class="p">:</span> <span class="kt"><a href="../Structs/STS/AssumeRoleRequest.html">AssumeRoleRequest</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/STS/AssumeRoleResponse.html">AssumeRoleResponse</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3STSAAV15getSessionTokenyAB03GetcD8ResponseVAB0ecD7RequestVKF"></a>
+                    <a name="//apple_ref/swift/Method/getSessionToken(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3STSAAV15getSessionTokenyAB03GetcD8ResponseVAB0ecD7RequestVKF">getSessionToken(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a set of temporary credentials for an AWS account or IAM user. The credentials consist of an access key ID, a secret access key, and a security token. Typically, you use GetSessionToken if you want to use MFA to protect programmatic calls to specific AWS APIs like Amazon EC2 StopInstances. MFA-enabled IAM users would need to call GetSessionToken and submit an MFA code that is associated with their MFA device. Using the temporary security credentials that are returned from the call, IAM users can then make programmatic calls to APIs that require MFA authentication. If you do not supply a correct MFA code, then the API returns an access denied error. For a comparison of GetSessionToken with the other APIs that produce temporary credentials, see Requesting Temporary Security Credentials and Comparing the AWS STS APIs in the IAM User Guide. The GetSessionToken action must be called by using the long-term AWS security credentials of the AWS account or an IAM user. Credentials that are created by IAM users are valid for the duration that you specify, from 900 seconds (15 minutes) up to a maximum of 129600 seconds (36 hours), with a default of 43200 seconds (12 hours); credentials that are created by using account credentials can range from 900 seconds (15 minutes) up to a maximum of 3600 seconds (1 hour), with a default of 1 hour.  The temporary security credentials created by GetSessionToken can be used to make API calls to any AWS service with the following exceptions:   You cannot call any IAM APIs unless MFA authentication information is included in the request.   You cannot call any STS API except AssumeRole or GetCallerIdentity.    We recommend that you do not call GetSessionToken with root account credentials. Instead, follow our best practices by creating one or more IAM users, giving them the necessary permissions, and using IAM users for everyday interaction with AWS.   The permissions associated with the temporary security credentials returned by GetSessionToken are based on the permissions associated with account or IAM user whose credentials are used to call the action. If GetSessionToken is called using root account credentials, the temporary credentials have root account permissions. Similarly, if GetSessionToken is called using the credentials of an IAM user, the temporary credentials have the same permissions as the IAM user.  For more information about using GetSessionToken to create temporary credentials, go to Temporary Credentials for Users in Untrusted Environments in the IAM User Guide.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getSessionToken</span><span class="p">(</span><span class="n">_</span> <span class="nv">input</span><span class="p">:</span> <span class="kt"><a href="../Structs/STS/GetSessionTokenRequest.html">GetSessionTokenRequest</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/STS/GetSessionTokenResponse.html">GetSessionTokenResponse</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3STSAAV25GetFederationTokenRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/GetFederationTokenRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3STSAAV25GetFederationTokenRequestV">GetFederationTokenRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/STS/GetFederationTokenRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">GetFederationTokenRequest</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3STSAAV33AssumeRoleWithWebIdentityResponseV"></a>
+                    <a name="//apple_ref/swift/Struct/AssumeRoleWithWebIdentityResponse" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3STSAAV33AssumeRoleWithWebIdentityResponseV">AssumeRoleWithWebIdentityResponse</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/STS/AssumeRoleWithWebIdentityResponse.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">AssumeRoleWithWebIdentityResponse</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3STSAAV26GetFederationTokenResponseV"></a>
+                    <a name="//apple_ref/swift/Struct/GetFederationTokenResponse" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3STSAAV26GetFederationTokenResponseV">GetFederationTokenResponse</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/STS/GetFederationTokenResponse.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">GetFederationTokenResponse</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3STSAAV25GetCallerIdentityResponseV"></a>
+                    <a name="//apple_ref/swift/Struct/GetCallerIdentityResponse" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3STSAAV25GetCallerIdentityResponseV">GetCallerIdentityResponse</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/STS/GetCallerIdentityResponse.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">GetCallerIdentityResponse</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3STSAAV17AssumeRoleRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/AssumeRoleRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3STSAAV17AssumeRoleRequestV">AssumeRoleRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/STS/AssumeRoleRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">AssumeRoleRequest</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3STSAAV33DecodeAuthorizationMessageRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/DecodeAuthorizationMessageRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3STSAAV33DecodeAuthorizationMessageRequestV">DecodeAuthorizationMessageRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/STS/DecodeAuthorizationMessageRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">DecodeAuthorizationMessageRequest</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3STSAAV26AssumeRoleWithSAMLResponseV"></a>
+                    <a name="//apple_ref/swift/Struct/AssumeRoleWithSAMLResponse" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3STSAAV26AssumeRoleWithSAMLResponseV">AssumeRoleWithSAMLResponse</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/STS/AssumeRoleWithSAMLResponse.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">AssumeRoleWithSAMLResponse</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3STSAAV18AssumeRoleResponseV"></a>
+                    <a name="//apple_ref/swift/Struct/AssumeRoleResponse" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3STSAAV18AssumeRoleResponseV">AssumeRoleResponse</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/STS/AssumeRoleResponse.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">AssumeRoleResponse</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3STSAAV23GetSessionTokenResponseV"></a>
+                    <a name="//apple_ref/swift/Struct/GetSessionTokenResponse" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3STSAAV23GetSessionTokenResponseV">GetSessionTokenResponse</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/STS/GetSessionTokenResponse.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">GetSessionTokenResponse</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3STSAAV24GetCallerIdentityRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/GetCallerIdentityRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3STSAAV24GetCallerIdentityRequestV">GetCallerIdentityRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">GetCallerIdentityRequest</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3STSAAV32AssumeRoleWithWebIdentityRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/AssumeRoleWithWebIdentityRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3STSAAV32AssumeRoleWithWebIdentityRequestV">AssumeRoleWithWebIdentityRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/STS/AssumeRoleWithWebIdentityRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">AssumeRoleWithWebIdentityRequest</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3STSAAV22GetSessionTokenRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/GetSessionTokenRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3STSAAV22GetSessionTokenRequestV">GetSessionTokenRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/STS/GetSessionTokenRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">GetSessionTokenRequest</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3STSAAV11CredentialsV"></a>
+                    <a name="//apple_ref/swift/Struct/Credentials" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3STSAAV11CredentialsV">Credentials</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/STS/Credentials.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Credentials</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3STSAAV13FederatedUserV"></a>
+                    <a name="//apple_ref/swift/Struct/FederatedUser" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3STSAAV13FederatedUserV">FederatedUser</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/STS/FederatedUser.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">FederatedUser</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3STSAAV25AssumeRoleWithSAMLRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/AssumeRoleWithSAMLRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3STSAAV25AssumeRoleWithSAMLRequestV">AssumeRoleWithSAMLRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/STS/AssumeRoleWithSAMLRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">AssumeRoleWithSAMLRequest</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3STSAAV34DecodeAuthorizationMessageResponseV"></a>
+                    <a name="//apple_ref/swift/Struct/DecodeAuthorizationMessageResponse" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3STSAAV34DecodeAuthorizationMessageResponseV">DecodeAuthorizationMessageResponse</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/STS/DecodeAuthorizationMessageResponse.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">DecodeAuthorizationMessageResponse</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3STSAAV15AssumedRoleUserV"></a>
+                    <a name="//apple_ref/swift/Struct/AssumedRoleUser" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3STSAAV15AssumedRoleUserV">AssumedRoleUser</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/STS/AssumedRoleUser.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">AssumedRoleUser</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>© Copyright (c) 2018 Yuki Takei(noppoMan), Joe Smith(Yasumoto), Jonathan McAllister(jonnymacs)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

@@ -1,0 +1,2691 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SQS Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/SQS" class="dashAnchor"></a>
+    <a title="SQS Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (44% documented)</p>
+        <p class="header-right"><a href="https://github.com/swift-aws/aws-sdk-swift"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        SQS Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../ACM.html">ACM</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ACMPCA.html">ACMPCA</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../AlexaForBusiness.html">AlexaForBusiness</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../APIGateway.html">APIGateway</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ApplicationAutoScaling.html">ApplicationAutoScaling</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ApplicationDiscoveryService.html">ApplicationDiscoveryService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../AppStream.html">AppStream</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../AppSync.html">AppSync</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Athena.html">Athena</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../AutoScaling.html">AutoScaling</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../AutoScalingPlans.html">AutoScalingPlans</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Batch.html">Batch</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Budgets.html">Budgets</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Cloud9.html">Cloud9</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CloudDirectory.html">CloudDirectory</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CloudFormation.html">CloudFormation</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CloudFront.html">CloudFront</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CloudHSM.html">CloudHSM</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CloudHSMV2.html">CloudHSMV2</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CloudSearch.html">CloudSearch</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CloudSearchDomain.html">CloudSearchDomain</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CloudTrail.html">CloudTrail</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CloudWatch.html">CloudWatch</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CloudWatchEvents.html">CloudWatchEvents</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CloudWatchLogs.html">CloudWatchLogs</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CodeBuild.html">CodeBuild</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CodeCommit.html">CodeCommit</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CodeDeploy.html">CodeDeploy</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CodePipeline.html">CodePipeline</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CodeStar.html">CodeStar</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CognitoIdentity.html">CognitoIdentity</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CognitoIdentityProvider.html">CognitoIdentityProvider</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CognitoSync.html">CognitoSync</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Comprehend.html">Comprehend</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ConfigService.html">ConfigService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Connect.html">Connect</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CostandUsageReportService.html">CostandUsageReportService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../CostExplorer.html">CostExplorer</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../DatabaseMigrationService.html">DatabaseMigrationService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../DataPipeline.html">DataPipeline</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../DAX.html">DAX</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../DeviceFarm.html">DeviceFarm</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../DirectConnect.html">DirectConnect</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../DirectoryService.html">DirectoryService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../DLM.html">DLM</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../DynamoDB.html">DynamoDB</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../DynamoDBStreams.html">DynamoDBStreams</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../EC2.html">EC2</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ECR.html">ECR</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ECS.html">ECS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../EFS.html">EFS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../EKS.html">EKS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ElastiCache.html">ElastiCache</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ElasticBeanstalk.html">ElasticBeanstalk</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ElasticsearchService.html">ElasticsearchService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ElasticTranscoder.html">ElasticTranscoder</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ELB.html">ELB</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ELBV2.html">ELBV2</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../EMR.html">EMR</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Firehose.html">Firehose</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../FMS.html">FMS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../GameLift.html">GameLift</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Glacier.html">Glacier</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Glue.html">Glue</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Greengrass.html">Greengrass</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../GuardDuty.html">GuardDuty</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Health.html">Health</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../IAM.html">IAM</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ImportExport.html">ImportExport</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Inspector.html">Inspector</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../IoT.html">IoT</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../IoT1ClickDevicesService.html">IoT1ClickDevicesService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../IoT1ClickProjects.html">IoT1ClickProjects</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../IoTAnalytics.html">IoTAnalytics</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../IoTDataPlane.html">IoTDataPlane</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../IoTJobsDataPlane.html">IoTJobsDataPlane</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Kinesis.html">Kinesis</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../KinesisAnalytics.html">KinesisAnalytics</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../KinesisVideo.html">KinesisVideo</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../KinesisVideoArchivedMedia.html">KinesisVideoArchivedMedia</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../KinesisVideoMedia.html">KinesisVideoMedia</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../KMS.html">KMS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Lambda.html">Lambda</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../LexModelBuildingService.html">LexModelBuildingService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../LexRuntimeService.html">LexRuntimeService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Lightsail.html">Lightsail</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../MachineLearning.html">MachineLearning</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Macie.html">Macie</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../MarketplaceCommerceAnalytics.html">MarketplaceCommerceAnalytics</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../MarketplaceEntitlementService.html">MarketplaceEntitlementService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../MarketplaceMetering.html">MarketplaceMetering</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../MediaConvert.html">MediaConvert</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../MediaLive.html">MediaLive</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../MediaPackage.html">MediaPackage</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../MediaStore.html">MediaStore</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../MediaStoreData.html">MediaStoreData</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../MediaTailor.html">MediaTailor</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../MigrationHub.html">MigrationHub</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Mobile.html">Mobile</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../MobileAnalytics.html">MobileAnalytics</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../MQ.html">MQ</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../MTurk.html">MTurk</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Neptune.html">Neptune</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../OpsWorks.html">OpsWorks</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../OpsWorksCM.html">OpsWorksCM</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Organizations.html">Organizations</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../PI.html">PI</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Pinpoint.html">Pinpoint</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Polly.html">Polly</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Pricing.html">Pricing</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../RDS.html">RDS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Redshift.html">Redshift</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Rekognition.html">Rekognition</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ResourceGroups.html">ResourceGroups</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ResourceGroupsTaggingAPI.html">ResourceGroupsTaggingAPI</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Route53.html">Route53</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Route53Domains.html">Route53Domains</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../S3.html">S3</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../SageMaker.html">SageMaker</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../SageMakerRuntime.html">SageMakerRuntime</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../SecretsManager.html">SecretsManager</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ServerlessApplicationRepository.html">ServerlessApplicationRepository</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ServiceCatalog.html">ServiceCatalog</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ServiceDiscovery.html">ServiceDiscovery</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../SES.html">SES</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../SFN.html">SFN</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Shield.html">Shield</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../SimpleDB.html">SimpleDB</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../SMS.html">SMS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Snowball.html">Snowball</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../SNS.html">SNS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../SQS.html">SQS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../SSM.html">SSM</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../StorageGateway.html">StorageGateway</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../STS.html">STS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Support.html">Support</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../SWF.html">SWF</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../TranscribeService.html">TranscribeService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Translate.html">Translate</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../WAF.html">WAF</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../WAFRegional.html">WAFRegional</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../WorkDocs.html">WorkDocs</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../WorkMail.html">WorkMail</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../WorkSpaces.html">WorkSpaces</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../XRay.html">XRay</a>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>SQS</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SQS</span></code></pre>
+
+                </div>
+              </div>
+            <p>Welcome to the Amazon Simple Queue Service API Reference. Amazon Simple Queue Service (Amazon SQS) is a reliable, highly-scalable hosted queue for storing messages as they travel between applications or microservices. Amazon SQS moves data between distributed application components and helps you decouple these components.   Standard queues are available in all regions. FIFO queues are available in the US East (N. Virginia), US East (Ohio), US West (Oregon), and EU (Ireland) regions.  You can use AWS SDKs to access Amazon SQS using your favorite programming language. The SDKs perform tasks such as the following automatically:   Cryptographically sign your service requests   Retry requests   Handle error responses    Additional Information     Amazon SQS Product Page     Amazon Simple Queue Service Developer Guide     Making API Requests     Using Amazon SQS Message Attributes     Using Amazon SQS Dead-Letter Queues       Amazon Web Services General Reference     Regions and Endpoints</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV11accessKeyId012secretAccessC06region8endpointABSSSg_AG15AWSSDKSwiftCore6RegionOSgAGtcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(accessKeyId:secretAccessKey:region:endpoint:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV11accessKeyId012secretAccessC06region8endpointABSSSg_AG15AWSSDKSwiftCore6RegionOSgAGtcfc">init(accessKeyId:secretAccessKey:region:endpoint:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">accessKeyId</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">secretAccessKey</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">region</span><span class="p">:</span> <span class="kt">AWSSDKSwiftCore</span><span class="o">.</span><span class="kt">Region</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">endpoint</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV10untagQueueyyAB05UntagC7RequestVKF"></a>
+                    <a name="//apple_ref/swift/Method/untagQueue(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV10untagQueueyyAB05UntagC7RequestVKF">untagQueue(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Remove cost allocation tags from the specified Amazon SQS queue. For an overview, see Tagging Amazon SQS Queues in the Amazon Simple Queue Service Developer Guide. When you use queue tags, keep the following guidelines in mind:   Adding more than 50 tags to a queue isn&rsquo;t recommended.   Tags don&rsquo;t have any semantic meaning. Amazon SQS interprets tags as character strings.   Tags are case-sensitive.   A new tag with a key identical to that of an existing tag overwrites the existing tag.   Tagging API actions are limited to 5 TPS per AWS account. If your application requires a higher throughput, file a technical support request.   For a full list of tag restrictions, see Limits Related to Queues in the Amazon Simple Queue Service Developer Guide.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">untagQueue</span><span class="p">(</span><span class="n">_</span> <span class="nv">input</span><span class="p">:</span> <span class="kt"><a href="../Structs/SQS/UntagQueueRequest.html">UntagQueueRequest</a></span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV11createQueueyAB06CreateC6ResultVAB0dC7RequestVKF"></a>
+                    <a name="//apple_ref/swift/Method/createQueue(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV11createQueueyAB06CreateC6ResultVAB0dC7RequestVKF">createQueue(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates a new standard or FIFO queue. You can pass one or more attributes in the request. Keep the following caveats in mind:   If you don&rsquo;t specify the FifoQueue attribute, Amazon SQS creates a standard queue.   You can&rsquo;t change the queue type after you create it and you can&rsquo;t convert an existing standard queue into a FIFO queue. You must either create a new FIFO queue for your application or delete your existing standard queue and recreate it as a FIFO queue. For more information, see  Moving From a Standard Queue to a FIFO Queue in the Amazon Simple Queue Service Developer Guide.     If you don&rsquo;t provide a value for an attribute, the queue is created with the default value for the attribute.   If you delete a queue, you must wait at least 60 seconds before creating a queue with the same name.   To successfully create a new queue, you must provide a queue name that adheres to the limits related to queues and is unique within the scope of your queues. To get the queue URL, use the  GetQueueUrl  action.  GetQueueUrl  requires only the QueueName parameter. be aware of existing queue names:   If you provide the name of an existing queue along with the exact names and values of all the queue&rsquo;s attributes, CreateQueue returns the queue URL for the existing queue.   If the queue name, attribute names, or attribute values don&rsquo;t match an existing queue, CreateQueue returns an error.    Some actions take lists of parameters. These lists are specified using the param.n notation. Values of n are integers starting from 1. For example, a parameter list with two elements looks like this:  &amp;Attribute.1=this   &amp;Attribute.2=that</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">createQueue</span><span class="p">(</span><span class="n">_</span> <span class="nv">input</span><span class="p">:</span> <span class="kt"><a href="../Structs/SQS/CreateQueueRequest.html">CreateQueueRequest</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/SQS/CreateQueueResult.html">CreateQueueResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV16removePermissionyyAB06RemoveC7RequestVKF"></a>
+                    <a name="//apple_ref/swift/Method/removePermission(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV16removePermissionyyAB06RemoveC7RequestVKF">removePermission(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Revokes any permissions in the queue policy that matches the specified Label parameter. Only the owner of the queue can remove permissions.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">removePermission</span><span class="p">(</span><span class="n">_</span> <span class="nv">input</span><span class="p">:</span> <span class="kt"><a href="../Structs/SQS/RemovePermissionRequest.html">RemovePermissionRequest</a></span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV13listQueueTagsyAB04ListcD6ResultVAB0ecD7RequestVKF"></a>
+                    <a name="//apple_ref/swift/Method/listQueueTags(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV13listQueueTagsyAB04ListcD6ResultVAB0ecD7RequestVKF">listQueueTags(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>List all cost allocation tags added to the specified Amazon SQS queue. For an overview, see Tagging Amazon SQS Queues in the Amazon Simple Queue Service Developer Guide. When you use queue tags, keep the following guidelines in mind:   Adding more than 50 tags to a queue isn&rsquo;t recommended.   Tags don&rsquo;t have any semantic meaning. Amazon SQS interprets tags as character strings.   Tags are case-sensitive.   A new tag with a key identical to that of an existing tag overwrites the existing tag.   Tagging API actions are limited to 5 TPS per AWS account. If your application requires a higher throughput, file a technical support request.   For a full list of tag restrictions, see Limits Related to Queues in the Amazon Simple Queue Service Developer Guide.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">listQueueTags</span><span class="p">(</span><span class="n">_</span> <span class="nv">input</span><span class="p">:</span> <span class="kt"><a href="../Structs/SQS/ListQueueTagsRequest.html">ListQueueTagsRequest</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/SQS/ListQueueTagsResult.html">ListQueueTagsResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV26listDeadLetterSourceQueuesyAB04ListcdeF6ResultVAB0gcdeF7RequestVKF"></a>
+                    <a name="//apple_ref/swift/Method/listDeadLetterSourceQueues(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV26listDeadLetterSourceQueuesyAB04ListcdeF6ResultVAB0gcdeF7RequestVKF">listDeadLetterSourceQueues(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a list of your queues that have the RedrivePolicy queue attribute configured with a dead-letter queue. For more information about using dead-letter queues, see Using Amazon SQS Dead-Letter Queues in the Amazon Simple Queue Service Developer Guide.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">listDeadLetterSourceQueues</span><span class="p">(</span><span class="n">_</span> <span class="nv">input</span><span class="p">:</span> <span class="kt"><a href="../Structs/SQS/ListDeadLetterSourceQueuesRequest.html">ListDeadLetterSourceQueuesRequest</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/SQS/ListDeadLetterSourceQueuesResult.html">ListDeadLetterSourceQueuesResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV11sendMessageyAB04SendC6ResultVAB0dC7RequestVKF"></a>
+                    <a name="//apple_ref/swift/Method/sendMessage(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV11sendMessageyAB04SendC6ResultVAB0dC7RequestVKF">sendMessage(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Delivers a message to the specified queue.  A message can include only XML, JSON, and unformatted text. The following Unicode characters are allowed:  #x9 | #xA | #xD | #x20 to #xD7FF | #xE000 to #xFFFD | #x10000 to #x10FFFF  Any characters not included in this list will be rejected. For more information, see the W3C specification for characters.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">sendMessage</span><span class="p">(</span><span class="n">_</span> <span class="nv">input</span><span class="p">:</span> <span class="kt"><a href="../Structs/SQS/SendMessageRequest.html">SendMessageRequest</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/SQS/SendMessageResult.html">SendMessageResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV28changeMessageVisibilityBatchyAB06ChangecdE6ResultVAB0fcdE7RequestVKF"></a>
+                    <a name="//apple_ref/swift/Method/changeMessageVisibilityBatch(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV28changeMessageVisibilityBatchyAB06ChangecdE6ResultVAB0fcdE7RequestVKF">changeMessageVisibilityBatch(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Changes the visibility timeout of multiple messages. This is a batch version of  ChangeMessageVisibility. The result of the action on each message is reported individually in the response. You can send up to 10  ChangeMessageVisibility  requests with each ChangeMessageVisibilityBatch action.  Because the batch request can result in a combination of successful and unsuccessful actions, you should check for batch errors even when the call returns an HTTP status code of 200.   Some actions take lists of parameters. These lists are specified using the param.n notation. Values of n are integers starting from 1. For example, a parameter list with two elements looks like this:  &amp;Attribute.1=this   &amp;Attribute.2=that</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">changeMessageVisibilityBatch</span><span class="p">(</span><span class="n">_</span> <span class="nv">input</span><span class="p">:</span> <span class="kt"><a href="../Structs/SQS/ChangeMessageVisibilityBatchRequest.html">ChangeMessageVisibilityBatchRequest</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/SQS/ChangeMessageVisibilityBatchResult.html">ChangeMessageVisibilityBatchResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV10purgeQueueyyAB05PurgeC7RequestVKF"></a>
+                    <a name="//apple_ref/swift/Method/purgeQueue(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV10purgeQueueyyAB05PurgeC7RequestVKF">purgeQueue(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Deletes the messages in a queue specified by the QueueURL parameter.  When you use the PurgeQueue action, you can&rsquo;t retrieve a message deleted from a queue.  When you purge a queue, the message deletion process takes up to 60 seconds. All messages sent to the queue before calling the PurgeQueue action are deleted. Messages sent to the queue while it is being purged might be deleted. While the queue is being purged, messages sent to the queue before PurgeQueue is called might be received, but are deleted within the next minute.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">purgeQueue</span><span class="p">(</span><span class="n">_</span> <span class="nv">input</span><span class="p">:</span> <span class="kt"><a href="../Structs/SQS/PurgeQueueRequest.html">PurgeQueueRequest</a></span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV13deleteMessageyyAB06DeleteC7RequestVKF"></a>
+                    <a name="//apple_ref/swift/Method/deleteMessage(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV13deleteMessageyyAB06DeleteC7RequestVKF">deleteMessage(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Deletes the specified message from the specified queue. You specify the message by using the message&rsquo;s receipt handle and not the MessageId you receive when you send the message. Even if the message is locked by another reader due to the visibility timeout setting, it is still deleted from the queue. If you leave a message in the queue for longer than the queue&rsquo;s configured retention period, Amazon SQS automatically deletes the message.    The receipt handle is associated with a specific instance of receiving the message. If you receive a message more than once, the receipt handle you get each time you receive the message is different. If you don&rsquo;t provide the most recently received receipt handle for the message when you use the DeleteMessage action, the request succeeds, but the message might not be deleted. For standard queues, it is possible to receive a message even after you delete it. This might happen on rare occasions if one of the servers storing a copy of the message is unavailable when you send the request to delete the message. The copy remains on the server and might be returned to you on a subsequent receive request. You should ensure that your application is idempotent, so that receiving a message more than once does not cause issues.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">deleteMessage</span><span class="p">(</span><span class="n">_</span> <span class="nv">input</span><span class="p">:</span> <span class="kt"><a href="../Structs/SQS/DeleteMessageRequest.html">DeleteMessageRequest</a></span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV18deleteMessageBatchyAB06DeletecD6ResultVAB0ecD7RequestVKF"></a>
+                    <a name="//apple_ref/swift/Method/deleteMessageBatch(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV18deleteMessageBatchyAB06DeletecD6ResultVAB0ecD7RequestVKF">deleteMessageBatch(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Deletes up to ten messages from the specified queue. This is a batch version of  DeleteMessage. The result of the action on each message is reported individually in the response.  Because the batch request can result in a combination of successful and unsuccessful actions, you should check for batch errors even when the call returns an HTTP status code of 200.   Some actions take lists of parameters. These lists are specified using the param.n notation. Values of n are integers starting from 1. For example, a parameter list with two elements looks like this:  &amp;Attribute.1=this   &amp;Attribute.2=that</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">deleteMessageBatch</span><span class="p">(</span><span class="n">_</span> <span class="nv">input</span><span class="p">:</span> <span class="kt"><a href="../Structs/SQS/DeleteMessageBatchRequest.html">DeleteMessageBatchRequest</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/SQS/DeleteMessageBatchResult.html">DeleteMessageBatchResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV11getQueueUrlyAB03GetcD6ResultVAB0ecD7RequestVKF"></a>
+                    <a name="//apple_ref/swift/Method/getQueueUrl(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV11getQueueUrlyAB03GetcD6ResultVAB0ecD7RequestVKF">getQueueUrl(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the URL of an existing queue. This action provides a simple way to retrieve the URL of an Amazon SQS queue. To access a queue that belongs to another AWS account, use the QueueOwnerAWSAccountId parameter to specify the account ID of the queue&rsquo;s owner. The queue&rsquo;s owner must grant you permission to access the queue. For more information about shared queue access, see  AddPermission  or see Shared Queues in the Amazon Simple Queue Service Developer Guide.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getQueueUrl</span><span class="p">(</span><span class="n">_</span> <span class="nv">input</span><span class="p">:</span> <span class="kt"><a href="../Structs/SQS/GetQueueUrlRequest.html">GetQueueUrlRequest</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/SQS/GetQueueUrlResult.html">GetQueueUrlResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV10listQueuesyAB04ListC6ResultVAB0dC7RequestVKF"></a>
+                    <a name="//apple_ref/swift/Method/listQueues(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV10listQueuesyAB04ListC6ResultVAB0dC7RequestVKF">listQueues(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a list of your queues. The maximum number of queues that can be returned is 1,000. If you specify a value for the optional QueueNamePrefix parameter, only queues with a name that begins with the specified value are returned.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">listQueues</span><span class="p">(</span><span class="n">_</span> <span class="nv">input</span><span class="p">:</span> <span class="kt"><a href="../Structs/SQS/ListQueuesRequest.html">ListQueuesRequest</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/SQS/ListQueuesResult.html">ListQueuesResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV23changeMessageVisibilityyyAB06ChangecD7RequestVKF"></a>
+                    <a name="//apple_ref/swift/Method/changeMessageVisibility(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV23changeMessageVisibilityyyAB06ChangecD7RequestVKF">changeMessageVisibility(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Changes the visibility timeout of a specified message in a queue to a new value. The maximum allowed timeout value is 12 hours. Thus, you can&rsquo;t extend the timeout of a message in an existing queue to more than a total visibility timeout of 12 hours. For more information, see Visibility Timeout in the Amazon Simple Queue Service Developer Guide. For example, you have a message with a visibility timeout of 5 minutes. After 3 minutes, you call ChangeMessageVisiblity with a timeout of 10 minutes. At that time, the timeout for the message is extended by 10 minutes beyond the time of the ChangeMessageVisibility action. This results in a total visibility timeout of 13 minutes. You can continue to call the ChangeMessageVisibility to extend the visibility timeout to a maximum of 12 hours. If you try to extend the visibility timeout beyond 12 hours, your request is rejected. A message is considered to be in flight after it&rsquo;s received from a queue by a consumer, but not yet deleted from the queue. For standard queues, there can be a maximum of 120,000 inflight messages per queue. If you reach this limit, Amazon SQS returns the OverLimit error message. To avoid reaching the limit, you should delete messages from the queue after they&rsquo;re processed. You can also increase the number of queues you use to process your messages. For FIFO queues, there can be a maximum of 20,000 inflight messages per queue. If you reach this limit, Amazon SQS returns no error messages.  If you attempt to set the VisibilityTimeout to a value greater than the maximum time left, Amazon SQS returns an error. Amazon SQS doesn&rsquo;t automatically recalculate and increase the timeout to the maximum remaining time. Unlike with a queue, when you change the visibility timeout for a specific message the timeout value is applied immediately but isn&rsquo;t saved in memory for that message. If you don&rsquo;t delete a message after it is received, the visibility timeout for the message reverts to the original timeout value (not to the value you set using the ChangeMessageVisibility action) the next time the message is received.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">changeMessageVisibility</span><span class="p">(</span><span class="n">_</span> <span class="nv">input</span><span class="p">:</span> <span class="kt"><a href="../Structs/SQS/ChangeMessageVisibilityRequest.html">ChangeMessageVisibilityRequest</a></span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV11deleteQueueyyAB06DeleteC7RequestVKF"></a>
+                    <a name="//apple_ref/swift/Method/deleteQueue(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV11deleteQueueyyAB06DeleteC7RequestVKF">deleteQueue(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Deletes the queue specified by the QueueUrl, regardless of the queue&rsquo;s contents. If the specified queue doesn&rsquo;t exist, Amazon SQS returns a successful response.  Be careful with the DeleteQueue action: When you delete a queue, any messages in the queue are no longer available.   When you delete a queue, the deletion process takes up to 60 seconds. Requests you send involving that queue during the 60 seconds might succeed. For example, a  SendMessage  request might succeed, but after 60 seconds the queue and the message you sent no longer exist. When you delete a queue, you must wait at least 60 seconds before creating a queue with the same name.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">deleteQueue</span><span class="p">(</span><span class="n">_</span> <span class="nv">input</span><span class="p">:</span> <span class="kt"><a href="../Structs/SQS/DeleteQueueRequest.html">DeleteQueueRequest</a></span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV14receiveMessageyAB07ReceiveC6ResultVAB0dC7RequestVKF"></a>
+                    <a name="//apple_ref/swift/Method/receiveMessage(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV14receiveMessageyAB07ReceiveC6ResultVAB0dC7RequestVKF">receiveMessage(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Retrieves one or more messages (up to 10), from the specified queue. Using the WaitTimeSeconds parameter enables long-poll support. For more information, see Amazon SQS Long Polling in the Amazon Simple Queue Service Developer Guide.  Short poll is the default behavior where a weighted random set of machines is sampled on a ReceiveMessage call. Thus, only the messages on the sampled machines are returned. If the number of messages in the queue is small (fewer than 1,000), you most likely get fewer messages than you requested per ReceiveMessage call. If the number of messages in the queue is extremely small, you might not receive any messages in a particular ReceiveMessage response. If this happens, repeat the request.  For each message returned, the response includes the following:   The message body.   An MD5 digest of the message body. For information about MD5, see RFC1321.   The MessageId you received when you sent the message to the queue.   The receipt handle.   The message attributes.   An MD5 digest of the message attributes.   The receipt handle is the identifier you must provide when deleting the message. For more information, see Queue and Message Identifiers in the Amazon Simple Queue Service Developer Guide. You can provide the VisibilityTimeout parameter in your request. The parameter is applied to the messages that Amazon SQS returns in the response. If you don&rsquo;t include the parameter, the overall visibility timeout for the queue is used for the returned messages. For more information, see Visibility Timeout in the Amazon Simple Queue Service Developer Guide. A message that isn&rsquo;t deleted or a message whose visibility isn&rsquo;t extended before the visibility timeout expires counts as a failed receive. Depending on the configuration of the queue, the message might be sent to the dead-letter queue.  In the future, new attributes might be added. If you write code that calls this action, we recommend that you structure your code so that it can handle new attributes gracefully.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">receiveMessage</span><span class="p">(</span><span class="n">_</span> <span class="nv">input</span><span class="p">:</span> <span class="kt"><a href="../Structs/SQS/ReceiveMessageRequest.html">ReceiveMessageRequest</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/SQS/ReceiveMessageResult.html">ReceiveMessageResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV16sendMessageBatchyAB04SendcD6ResultVAB0ecD7RequestVKF"></a>
+                    <a name="//apple_ref/swift/Method/sendMessageBatch(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV16sendMessageBatchyAB04SendcD6ResultVAB0ecD7RequestVKF">sendMessageBatch(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Delivers up to ten messages to the specified queue. This is a batch version of  SendMessage. For a FIFO queue, multiple messages within a single batch are enqueued in the order they are sent. The result of sending each message is reported individually in the response. Because the batch request can result in a combination of successful and unsuccessful actions, you should check for batch errors even when the call returns an HTTP status code of 200. The maximum allowed individual message size and the maximum total payload size (the sum of the individual lengths of all of the batched messages) are both 256 KB (262,144 bytes).  A message can include only XML, JSON, and unformatted text. The following Unicode characters are allowed:  #x9 | #xA | #xD | #x20 to #xD7FF | #xE000 to #xFFFD | #x10000 to #x10FFFF  Any characters not included in this list will be rejected. For more information, see the W3C specification for characters.  If you don&rsquo;t specify the DelaySeconds parameter for an entry, Amazon SQS uses the default value for the queue.  Some actions take lists of parameters. These lists are specified using the param.n notation. Values of n are integers starting from 1. For example, a parameter list with two elements looks like this:  &amp;Attribute.1=this   &amp;Attribute.2=that</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">sendMessageBatch</span><span class="p">(</span><span class="n">_</span> <span class="nv">input</span><span class="p">:</span> <span class="kt"><a href="../Structs/SQS/SendMessageBatchRequest.html">SendMessageBatchRequest</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/SQS/SendMessageBatchResult.html">SendMessageBatchResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV8tagQueueyyAB03TagC7RequestVKF"></a>
+                    <a name="//apple_ref/swift/Method/tagQueue(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV8tagQueueyyAB03TagC7RequestVKF">tagQueue(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Add cost allocation tags to the specified Amazon SQS queue. For an overview, see Tagging Amazon SQS Queues in the Amazon Simple Queue Service Developer Guide. When you use queue tags, keep the following guidelines in mind:   Adding more than 50 tags to a queue isn&rsquo;t recommended.   Tags don&rsquo;t have any semantic meaning. Amazon SQS interprets tags as character strings.   Tags are case-sensitive.   A new tag with a key identical to that of an existing tag overwrites the existing tag.   Tagging API actions are limited to 5 TPS per AWS account. If your application requires a higher throughput, file a technical support request.   For a full list of tag restrictions, see Limits Related to Queues in the Amazon Simple Queue Service Developer Guide.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">tagQueue</span><span class="p">(</span><span class="n">_</span> <span class="nv">input</span><span class="p">:</span> <span class="kt"><a href="../Structs/SQS/TagQueueRequest.html">TagQueueRequest</a></span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV18getQueueAttributesyAB03GetcD6ResultVAB0ecD7RequestVKF"></a>
+                    <a name="//apple_ref/swift/Method/getQueueAttributes(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV18getQueueAttributesyAB03GetcD6ResultVAB0ecD7RequestVKF">getQueueAttributes(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Gets attributes for the specified queue.  To determine whether a queue is FIFO, you can check whether QueueName ends with the .fifo suffix.   Some actions take lists of parameters. These lists are specified using the param.n notation. Values of n are integers starting from 1. For example, a parameter list with two elements looks like this:  &amp;Attribute.1=this   &amp;Attribute.2=that</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getQueueAttributes</span><span class="p">(</span><span class="n">_</span> <span class="nv">input</span><span class="p">:</span> <span class="kt"><a href="../Structs/SQS/GetQueueAttributesRequest.html">GetQueueAttributesRequest</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/SQS/GetQueueAttributesResult.html">GetQueueAttributesResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV18setQueueAttributesyyAB03SetcD7RequestVKF"></a>
+                    <a name="//apple_ref/swift/Method/setQueueAttributes(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV18setQueueAttributesyyAB03SetcD7RequestVKF">setQueueAttributes(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets the value of one or more queue attributes. When you change a queue&rsquo;s attributes, the change can take up to 60 seconds for most of the attributes to propagate throughout the Amazon SQS system. Changes made to the MessageRetentionPeriod attribute can take up to 15 minutes.  In the future, new attributes might be added. If you write code that calls this action, we recommend that you structure your code so that it can handle new attributes gracefully.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setQueueAttributes</span><span class="p">(</span><span class="n">_</span> <span class="nv">input</span><span class="p">:</span> <span class="kt"><a href="../Structs/SQS/SetQueueAttributesRequest.html">SetQueueAttributesRequest</a></span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV13addPermissionyyAB03AddC7RequestVKF"></a>
+                    <a name="//apple_ref/swift/Method/addPermission(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV13addPermissionyyAB03AddC7RequestVKF">addPermission(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Adds a permission to a queue for a specific principal. This allows sharing access to the queue. When you create a queue, you have full control access rights for the queue. Only you, the owner of the queue, can grant or deny permissions to the queue. For more information about these permissions, see Shared Queues in the Amazon Simple Queue Service Developer Guide.   AddPermission writes an Amazon-SQS-generated policy. If you want to write your own policy, use  SetQueueAttributes  to upload your policy. For more information about writing your own policy, see Using The Access Policy Language in the Amazon Simple Queue Service Developer Guide. Some actions take lists of parameters. These lists are specified using the param.n notation. Values of n are integers starting from 1. For example, a parameter list with two elements looks like this:  &amp;Attribute.1=this   &amp;Attribute.2=that</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">addPermission</span><span class="p">(</span><span class="n">_</span> <span class="nv">input</span><span class="p">:</span> <span class="kt"><a href="../Structs/SQS/AddPermissionRequest.html">AddPermissionRequest</a></span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV17UntagQueueRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/UntagQueueRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV17UntagQueueRequestV">UntagQueueRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/UntagQueueRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">UntagQueueRequest</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV20DeleteMessageRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/DeleteMessageRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV20DeleteMessageRequestV">DeleteMessageRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/DeleteMessageRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">DeleteMessageRequest</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV34ChangeMessageVisibilityBatchResultV"></a>
+                    <a name="//apple_ref/swift/Struct/ChangeMessageVisibilityBatchResult" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV34ChangeMessageVisibilityBatchResultV">ChangeMessageVisibilityBatchResult</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/ChangeMessageVisibilityBatchResult.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ChangeMessageVisibilityBatchResult</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV12QueueUrlListV"></a>
+                    <a name="//apple_ref/swift/Struct/QueueUrlList" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV12QueueUrlListV">QueueUrlList</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/QueueUrlList.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">QueueUrlList</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV25GetQueueAttributesRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/GetQueueAttributesRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV25GetQueueAttributesRequestV">GetQueueAttributesRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/GetQueueAttributesRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">GetQueueAttributesRequest</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV44ChangeMessageVisibilityBatchRequestEntryListV"></a>
+                    <a name="//apple_ref/swift/Struct/ChangeMessageVisibilityBatchRequestEntryList" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV44ChangeMessageVisibilityBatchRequestEntryListV">ChangeMessageVisibilityBatchRequestEntryList</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/ChangeMessageVisibilityBatchRequestEntryList.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ChangeMessageVisibilityBatchRequestEntryList</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV26MessageSystemAttributeNameO"></a>
+                    <a name="//apple_ref/swift/Enum/MessageSystemAttributeName" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV26MessageSystemAttributeNameO">MessageSystemAttributeName</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/MessageSystemAttributeName.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">MessageSystemAttributeName</span> <span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="kt">CustomStringConvertible</span><span class="p">,</span> <span class="kt">Codable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV33ListDeadLetterSourceQueuesRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/ListDeadLetterSourceQueuesRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV33ListDeadLetterSourceQueuesRequestV">ListDeadLetterSourceQueuesRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/ListDeadLetterSourceQueuesRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ListDeadLetterSourceQueuesRequest</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV24MessageAttributeNameListV"></a>
+                    <a name="//apple_ref/swift/Struct/MessageAttributeNameList" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV24MessageAttributeNameListV">MessageAttributeNameList</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/MessageAttributeNameList.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">MessageAttributeNameList</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV18SendMessageRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/SendMessageRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV18SendMessageRequestV">SendMessageRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/SendMessageRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SendMessageRequest</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV10BinaryListV"></a>
+                    <a name="//apple_ref/swift/Struct/BinaryList" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV10BinaryListV">BinaryList</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/BinaryList.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">BinaryList</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV24DeleteMessageBatchResultV"></a>
+                    <a name="//apple_ref/swift/Struct/DeleteMessageBatchResult" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV24DeleteMessageBatchResultV">DeleteMessageBatchResult</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/DeleteMessageBatchResult.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">DeleteMessageBatchResult</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV30ChangeMessageVisibilityRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/ChangeMessageVisibilityRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV30ChangeMessageVisibilityRequestV">ChangeMessageVisibilityRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/ChangeMessageVisibilityRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ChangeMessageVisibilityRequest</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV34DeleteMessageBatchRequestEntryListV"></a>
+                    <a name="//apple_ref/swift/Struct/DeleteMessageBatchRequestEntryList" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV34DeleteMessageBatchRequestEntryListV">DeleteMessageBatchRequestEntryList</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/DeleteMessageBatchRequestEntryList.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">DeleteMessageBatchRequestEntryList</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV17PurgeQueueRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/PurgeQueueRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV17PurgeQueueRequestV">PurgeQueueRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/PurgeQueueRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">PurgeQueueRequest</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV33DeleteMessageBatchResultEntryListV"></a>
+                    <a name="//apple_ref/swift/Struct/DeleteMessageBatchResultEntryList" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV33DeleteMessageBatchResultEntryListV">DeleteMessageBatchResultEntryList</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/DeleteMessageBatchResultEntryList.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">DeleteMessageBatchResultEntryList</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV24GetQueueAttributesResultV"></a>
+                    <a name="//apple_ref/swift/Struct/GetQueueAttributesResult" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV24GetQueueAttributesResultV">GetQueueAttributesResult</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/GetQueueAttributesResult.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">GetQueueAttributesResult</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV19ListQueueTagsResultV"></a>
+                    <a name="//apple_ref/swift/Struct/ListQueueTagsResult" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV19ListQueueTagsResultV">ListQueueTagsResult</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/ListQueueTagsResult.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ListQueueTagsResult</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV20ReceiveMessageResultV"></a>
+                    <a name="//apple_ref/swift/Struct/ReceiveMessageResult" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV20ReceiveMessageResultV">ReceiveMessageResult</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/ReceiveMessageResult.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ReceiveMessageResult</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV32SendMessageBatchRequestEntryListV"></a>
+                    <a name="//apple_ref/swift/Struct/SendMessageBatchRequestEntryList" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV32SendMessageBatchRequestEntryListV">SendMessageBatchRequestEntryList</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/SendMessageBatchRequestEntryList.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SendMessageBatchRequestEntryList</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV21MessageAttributeValueV"></a>
+                    <a name="//apple_ref/swift/Struct/MessageAttributeValue" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV21MessageAttributeValueV">MessageAttributeValue</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/MessageAttributeValue.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">MessageAttributeValue</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV29DeleteMessageBatchResultEntryV"></a>
+                    <a name="//apple_ref/swift/Struct/DeleteMessageBatchResultEntry" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV29DeleteMessageBatchResultEntryV">DeleteMessageBatchResultEntry</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/DeleteMessageBatchResultEntry.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">DeleteMessageBatchResultEntry</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV17GetQueueUrlResultV"></a>
+                    <a name="//apple_ref/swift/Struct/GetQueueUrlResult" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV17GetQueueUrlResultV">GetQueueUrlResult</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/GetQueueUrlResult.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">GetQueueUrlResult</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV21BatchResultErrorEntryV"></a>
+                    <a name="//apple_ref/swift/Struct/BatchResultErrorEntry" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV21BatchResultErrorEntryV">BatchResultErrorEntry</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/BatchResultErrorEntry.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">BatchResultErrorEntry</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV20ListQueueTagsRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/ListQueueTagsRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV20ListQueueTagsRequestV">ListQueueTagsRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/ListQueueTagsRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ListQueueTagsRequest</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV16ListQueuesResultV"></a>
+                    <a name="//apple_ref/swift/Struct/ListQueuesResult" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV16ListQueuesResultV">ListQueuesResult</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/ListQueuesResult.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ListQueuesResult</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV39ChangeMessageVisibilityBatchResultEntryV"></a>
+                    <a name="//apple_ref/swift/Struct/ChangeMessageVisibilityBatchResultEntry" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV39ChangeMessageVisibilityBatchResultEntryV">ChangeMessageVisibilityBatchResultEntry</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/ChangeMessageVisibilityBatchResultEntry.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ChangeMessageVisibilityBatchResultEntry</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV22SendMessageBatchResultV"></a>
+                    <a name="//apple_ref/swift/Struct/SendMessageBatchResult" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV22SendMessageBatchResultV">SendMessageBatchResult</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/SendMessageBatchResult.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SendMessageBatchResult</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV17AttributeNameListV"></a>
+                    <a name="//apple_ref/swift/Struct/AttributeNameList" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV17AttributeNameListV">AttributeNameList</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/AttributeNameList.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">AttributeNameList</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV15TagQueueRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/TagQueueRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV15TagQueueRequestV">TagQueueRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/TagQueueRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">TagQueueRequest</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV23RemovePermissionRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/RemovePermissionRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV23RemovePermissionRequestV">RemovePermissionRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/RemovePermissionRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">RemovePermissionRequest</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV18GetQueueUrlRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/GetQueueUrlRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV18GetQueueUrlRequestV">GetQueueUrlRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/GetQueueUrlRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">GetQueueUrlRequest</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV18DeleteQueueRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/DeleteQueueRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV18DeleteQueueRequestV">DeleteQueueRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/DeleteQueueRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">DeleteQueueRequest</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV31SendMessageBatchResultEntryListV"></a>
+                    <a name="//apple_ref/swift/Struct/SendMessageBatchResultEntryList" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV31SendMessageBatchResultEntryListV">SendMessageBatchResultEntryList</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/SendMessageBatchResultEntryList.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SendMessageBatchResultEntryList</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV17SendMessageResultV"></a>
+                    <a name="//apple_ref/swift/Struct/SendMessageResult" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV17SendMessageResultV">SendMessageResult</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/SendMessageResult.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SendMessageResult</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV17ListQueuesRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/ListQueuesRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV17ListQueuesRequestV">ListQueuesRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/ListQueuesRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ListQueuesRequest</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV14ActionNameListV"></a>
+                    <a name="//apple_ref/swift/Struct/ActionNameList" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV14ActionNameListV">ActionNameList</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/ActionNameList.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ActionNameList</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV17CreateQueueResultV"></a>
+                    <a name="//apple_ref/swift/Struct/CreateQueueResult" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV17CreateQueueResultV">CreateQueueResult</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/CreateQueueResult.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">CreateQueueResult</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV10StringListV"></a>
+                    <a name="//apple_ref/swift/Struct/StringList" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV10StringListV">StringList</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/StringList.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">StringList</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV16AWSAccountIdListV"></a>
+                    <a name="//apple_ref/swift/Struct/AWSAccountIdList" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV16AWSAccountIdListV">AWSAccountIdList</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/AWSAccountIdList.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">AWSAccountIdList</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV32ListDeadLetterSourceQueuesResultV"></a>
+                    <a name="//apple_ref/swift/Struct/ListDeadLetterSourceQueuesResult" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV32ListDeadLetterSourceQueuesResultV">ListDeadLetterSourceQueuesResult</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/ListDeadLetterSourceQueuesResult.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ListDeadLetterSourceQueuesResult</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV35ChangeMessageVisibilityBatchRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/ChangeMessageVisibilityBatchRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV35ChangeMessageVisibilityBatchRequestV">ChangeMessageVisibilityBatchRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/ChangeMessageVisibilityBatchRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ChangeMessageVisibilityBatchRequest</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV27SendMessageBatchResultEntryV"></a>
+                    <a name="//apple_ref/swift/Struct/SendMessageBatchResultEntry" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV27SendMessageBatchResultEntryV">SendMessageBatchResultEntry</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/SendMessageBatchResultEntry.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SendMessageBatchResultEntry</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV43ChangeMessageVisibilityBatchResultEntryListV"></a>
+                    <a name="//apple_ref/swift/Struct/ChangeMessageVisibilityBatchResultEntryList" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV43ChangeMessageVisibilityBatchResultEntryListV">ChangeMessageVisibilityBatchResultEntryList</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/ChangeMessageVisibilityBatchResultEntryList.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ChangeMessageVisibilityBatchResultEntryList</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV23SendMessageBatchRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/SendMessageBatchRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV23SendMessageBatchRequestV">SendMessageBatchRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/SendMessageBatchRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SendMessageBatchRequest</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV20AddPermissionRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/AddPermissionRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV20AddPermissionRequestV">AddPermissionRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/AddPermissionRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">AddPermissionRequest</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV40ChangeMessageVisibilityBatchRequestEntryV"></a>
+                    <a name="//apple_ref/swift/Struct/ChangeMessageVisibilityBatchRequestEntry" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV40ChangeMessageVisibilityBatchRequestEntryV">ChangeMessageVisibilityBatchRequestEntry</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/ChangeMessageVisibilityBatchRequestEntry.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ChangeMessageVisibilityBatchRequestEntry</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV28SendMessageBatchRequestEntryV"></a>
+                    <a name="//apple_ref/swift/Struct/SendMessageBatchRequestEntry" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV28SendMessageBatchRequestEntryV">SendMessageBatchRequestEntry</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/SendMessageBatchRequestEntry.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SendMessageBatchRequestEntry</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV18CreateQueueRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/CreateQueueRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV18CreateQueueRequestV">CreateQueueRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/CreateQueueRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">CreateQueueRequest</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV11MessageListV"></a>
+                    <a name="//apple_ref/swift/Struct/MessageList" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV11MessageListV">MessageList</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/MessageList.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">MessageList</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV7MessageV"></a>
+                    <a name="//apple_ref/swift/Struct/Message" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV7MessageV">Message</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/Message.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Message</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV30DeleteMessageBatchRequestEntryV"></a>
+                    <a name="//apple_ref/swift/Struct/DeleteMessageBatchRequestEntry" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV30DeleteMessageBatchRequestEntryV">DeleteMessageBatchRequestEntry</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/DeleteMessageBatchRequestEntry.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">DeleteMessageBatchRequestEntry</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV21ReceiveMessageRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/ReceiveMessageRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV21ReceiveMessageRequestV">ReceiveMessageRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/ReceiveMessageRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ReceiveMessageRequest</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV10TagKeyListV"></a>
+                    <a name="//apple_ref/swift/Struct/TagKeyList" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV10TagKeyListV">TagKeyList</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/TagKeyList.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">TagKeyList</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV25BatchResultErrorEntryListV"></a>
+                    <a name="//apple_ref/swift/Struct/BatchResultErrorEntryList" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV25BatchResultErrorEntryListV">BatchResultErrorEntryList</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/BatchResultErrorEntryList.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">BatchResultErrorEntryList</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV18QueueAttributeNameO"></a>
+                    <a name="//apple_ref/swift/Enum/QueueAttributeName" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV18QueueAttributeNameO">QueueAttributeName</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/QueueAttributeName.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">QueueAttributeName</span> <span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="kt">CustomStringConvertible</span><span class="p">,</span> <span class="kt">Codable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV25DeleteMessageBatchRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/DeleteMessageBatchRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV25DeleteMessageBatchRequestV">DeleteMessageBatchRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/DeleteMessageBatchRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">DeleteMessageBatchRequest</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SQSAAV25SetQueueAttributesRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/SetQueueAttributesRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SQSAAV25SetQueueAttributesRequestV">SetQueueAttributesRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/SQS/SetQueueAttributesRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SetQueueAttributesRequest</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>© Copyright (c) 2018 Yuki Takei(noppoMan), Joe Smith(Yasumoto), Jonathan McAllister(jonnymacs)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

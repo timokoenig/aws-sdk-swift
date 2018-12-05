@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ContainerInstance Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../../js/jquery.min.js" defer></script>
+    <script src="../../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/ContainerInstance" class="dashAnchor"></a>
+    <a title="ContainerInstance Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../../index.html"> Docs</a> (44% documented)</p>
+        <p class="header-right"><a href="https://github.com/swift-aws/aws-sdk-swift"><img src="../../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../../index.html"> Reference</a>
+        <img id="carat" src="../../img/carat.png" />
+        ContainerInstance Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../../ACM.html">ACM</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ACMPCA.html">ACMPCA</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../AlexaForBusiness.html">AlexaForBusiness</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../APIGateway.html">APIGateway</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ApplicationAutoScaling.html">ApplicationAutoScaling</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ApplicationDiscoveryService.html">ApplicationDiscoveryService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../AppStream.html">AppStream</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../AppSync.html">AppSync</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Athena.html">Athena</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../AutoScaling.html">AutoScaling</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../AutoScalingPlans.html">AutoScalingPlans</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Batch.html">Batch</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Budgets.html">Budgets</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Cloud9.html">Cloud9</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudDirectory.html">CloudDirectory</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudFormation.html">CloudFormation</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudFront.html">CloudFront</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudHSM.html">CloudHSM</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudHSMV2.html">CloudHSMV2</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudSearch.html">CloudSearch</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudSearchDomain.html">CloudSearchDomain</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudTrail.html">CloudTrail</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudWatch.html">CloudWatch</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudWatchEvents.html">CloudWatchEvents</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudWatchLogs.html">CloudWatchLogs</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CodeBuild.html">CodeBuild</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CodeCommit.html">CodeCommit</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CodeDeploy.html">CodeDeploy</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CodePipeline.html">CodePipeline</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CodeStar.html">CodeStar</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CognitoIdentity.html">CognitoIdentity</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CognitoIdentityProvider.html">CognitoIdentityProvider</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CognitoSync.html">CognitoSync</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Comprehend.html">Comprehend</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ConfigService.html">ConfigService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Connect.html">Connect</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CostandUsageReportService.html">CostandUsageReportService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CostExplorer.html">CostExplorer</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../DatabaseMigrationService.html">DatabaseMigrationService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../DataPipeline.html">DataPipeline</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../DAX.html">DAX</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../DeviceFarm.html">DeviceFarm</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../DirectConnect.html">DirectConnect</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../DirectoryService.html">DirectoryService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../DLM.html">DLM</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../DynamoDB.html">DynamoDB</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../DynamoDBStreams.html">DynamoDBStreams</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../EC2.html">EC2</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ECR.html">ECR</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ECS.html">ECS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../EFS.html">EFS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../EKS.html">EKS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ElastiCache.html">ElastiCache</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ElasticBeanstalk.html">ElasticBeanstalk</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ElasticsearchService.html">ElasticsearchService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ElasticTranscoder.html">ElasticTranscoder</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ELB.html">ELB</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ELBV2.html">ELBV2</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../EMR.html">EMR</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Firehose.html">Firehose</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../FMS.html">FMS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../GameLift.html">GameLift</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Glacier.html">Glacier</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Glue.html">Glue</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Greengrass.html">Greengrass</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../GuardDuty.html">GuardDuty</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Health.html">Health</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../IAM.html">IAM</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ImportExport.html">ImportExport</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Inspector.html">Inspector</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../IoT.html">IoT</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../IoT1ClickDevicesService.html">IoT1ClickDevicesService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../IoT1ClickProjects.html">IoT1ClickProjects</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../IoTAnalytics.html">IoTAnalytics</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../IoTDataPlane.html">IoTDataPlane</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../IoTJobsDataPlane.html">IoTJobsDataPlane</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Kinesis.html">Kinesis</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../KinesisAnalytics.html">KinesisAnalytics</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../KinesisVideo.html">KinesisVideo</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../KinesisVideoArchivedMedia.html">KinesisVideoArchivedMedia</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../KinesisVideoMedia.html">KinesisVideoMedia</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../KMS.html">KMS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Lambda.html">Lambda</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../LexModelBuildingService.html">LexModelBuildingService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../LexRuntimeService.html">LexRuntimeService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Lightsail.html">Lightsail</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MachineLearning.html">MachineLearning</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Macie.html">Macie</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MarketplaceCommerceAnalytics.html">MarketplaceCommerceAnalytics</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MarketplaceEntitlementService.html">MarketplaceEntitlementService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MarketplaceMetering.html">MarketplaceMetering</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MediaConvert.html">MediaConvert</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MediaLive.html">MediaLive</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MediaPackage.html">MediaPackage</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MediaStore.html">MediaStore</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MediaStoreData.html">MediaStoreData</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MediaTailor.html">MediaTailor</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MigrationHub.html">MigrationHub</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Mobile.html">Mobile</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MobileAnalytics.html">MobileAnalytics</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MQ.html">MQ</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MTurk.html">MTurk</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Neptune.html">Neptune</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../OpsWorks.html">OpsWorks</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../OpsWorksCM.html">OpsWorksCM</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Organizations.html">Organizations</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../PI.html">PI</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Pinpoint.html">Pinpoint</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Polly.html">Polly</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Pricing.html">Pricing</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../RDS.html">RDS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Redshift.html">Redshift</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Rekognition.html">Rekognition</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ResourceGroups.html">ResourceGroups</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ResourceGroupsTaggingAPI.html">ResourceGroupsTaggingAPI</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Route53.html">Route53</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Route53Domains.html">Route53Domains</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../S3.html">S3</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SageMaker.html">SageMaker</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SageMakerRuntime.html">SageMakerRuntime</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SecretsManager.html">SecretsManager</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ServerlessApplicationRepository.html">ServerlessApplicationRepository</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ServiceCatalog.html">ServiceCatalog</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ServiceDiscovery.html">ServiceDiscovery</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SES.html">SES</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SFN.html">SFN</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Shield.html">Shield</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SimpleDB.html">SimpleDB</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SMS.html">SMS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Snowball.html">Snowball</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SNS.html">SNS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SQS.html">SQS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SSM.html">SSM</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../StorageGateway.html">StorageGateway</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../STS.html">STS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Support.html">Support</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SWF.html">SWF</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../TranscribeService.html">TranscribeService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Translate.html">Translate</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../WAF.html">WAF</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../WAFRegional.html">WAFRegional</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../WorkDocs.html">WorkDocs</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../WorkMail.html">WorkMail</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../WorkSpaces.html">WorkSpaces</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../XRay.html">XRay</a>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>ContainerInstance</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ContainerInstance</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3ECSAAV17ContainerInstanceV8_membersSay15AWSSDKSwiftCore14AWSShapeMemberVGvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/_members" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3ECSAAV17ContainerInstanceV8_membersSay15AWSSDKSwiftCore14AWSShapeMemberVGvpZ">_members</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">_members</span><span class="p">:</span> <span class="p">[</span><span class="kt">AWSShapeMember</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3ECSAAV17ContainerInstanceV11attachmentsSayAB10AttachmentVGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/attachments" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3ECSAAV17ContainerInstanceV11attachmentsSayAB10AttachmentVGSgvp">attachments</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The elastic network interfaces associated with the container instance.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">attachments</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../../Structs/ECS/Attachment.html">Attachment</a></span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3ECSAAV17ContainerInstanceV17pendingTasksCounts5Int32VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/pendingTasksCount" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3ECSAAV17ContainerInstanceV17pendingTasksCounts5Int32VSgvp">pendingTasksCount</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The number of tasks on the container instance that are in the PENDING status.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">pendingTasksCount</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3ECSAAV17ContainerInstanceV14agentConnectedSbSgvp"></a>
+                    <a name="//apple_ref/swift/Property/agentConnected" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3ECSAAV17ContainerInstanceV14agentConnectedSbSgvp">agentConnected</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This parameter returns true if the agent is connected to Amazon ECS. Registered instances with an agent that may be unhealthy or stopped return false. Only instances connected to an agent can accept placement requests.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">agentConnected</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3ECSAAV17ContainerInstanceV10attributesSayAB9AttributeVGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/attributes" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3ECSAAV17ContainerInstanceV10attributesSayAB9AttributeVGSgvp">attributes</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The attributes set for the container instance, either by the Amazon ECS container agent at instance registration or manually with the PutAttributes operation.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">attributes</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../../Structs/ECS/Attribute.html">Attribute</a></span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3ECSAAV17ContainerInstanceV17runningTasksCounts5Int32VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/runningTasksCount" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3ECSAAV17ContainerInstanceV17runningTasksCounts5Int32VSgvp">runningTasksCount</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The number of tasks on the container instance that are in the RUNNING status.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">runningTasksCount</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3ECSAAV17ContainerInstanceV19registeredResourcesSayAB8ResourceVGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/registeredResources" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3ECSAAV17ContainerInstanceV19registeredResourcesSayAB8ResourceVGSgvp">registeredResources</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>For CPU and memory resource types, this parameter describes the amount of each resource that was available on the container instance when the container agent registered it with Amazon ECS; this value represents the total amount of CPU and memory that can be allocated on this container instance to tasks. For port resource types, this parameter describes the ports that were reserved by the Amazon ECS container agent when it registered the container instance with Amazon ECS.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">registeredResources</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../../Structs/ECS/Resource.html">Resource</a></span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3ECSAAV17ContainerInstanceV6statusSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/status" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3ECSAAV17ContainerInstanceV6statusSSSgvp">status</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The status of the container instance. The valid values are ACTIVE, INACTIVE, or DRAINING. ACTIVE indicates that the container instance can accept tasks. DRAINING indicates that new tasks are not placed on the container instance and any service tasks running on the container instance are removed if possible. For more information, see Container Instance Draining in the Amazon Elastic Container Service Developer Guide.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">status</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3ECSAAV17ContainerInstanceV11versionInfoAB07VersionE0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/versionInfo" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3ECSAAV17ContainerInstanceV11versionInfoAB07VersionE0VSgvp">versionInfo</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The version information for the Amazon ECS container agent and Docker daemon running on the container instance.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">versionInfo</span><span class="p">:</span> <span class="kt"><a href="../../Structs/ECS/VersionInfo.html">VersionInfo</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3ECSAAV17ContainerInstanceV17agentUpdateStatusAB05AgenteF0OSgvp"></a>
+                    <a name="//apple_ref/swift/Property/agentUpdateStatus" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3ECSAAV17ContainerInstanceV17agentUpdateStatusAB05AgenteF0OSgvp">agentUpdateStatus</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The status of the most recent agent update. If an update has never been requested, this value is NULL.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">agentUpdateStatus</span><span class="p">:</span> <span class="kt"><a href="../../Structs/ECS/AgentUpdateStatus.html">AgentUpdateStatus</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3ECSAAV17ContainerInstanceV03ec2C2IdSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/ec2InstanceId" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3ECSAAV17ContainerInstanceV03ec2C2IdSSSgvp">ec2InstanceId</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The EC2 instance ID of the container instance.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">ec2InstanceId</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3ECSAAV17ContainerInstanceV12registeredAt15AWSSDKSwiftCore9TimeStampVSgvp"></a>
+                    <a name="//apple_ref/swift/Property/registeredAt" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3ECSAAV17ContainerInstanceV12registeredAt15AWSSDKSwiftCore9TimeStampVSgvp">registeredAt</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The Unix time stamp for when the container instance was registered.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">registeredAt</span><span class="p">:</span> <span class="kt">TimeStamp</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3ECSAAV17ContainerInstanceV09containerC3ArnSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/containerInstanceArn" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3ECSAAV17ContainerInstanceV09containerC3ArnSSSgvp">containerInstanceArn</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The Amazon Resource Name (ARN) of the container instance. The ARN contains the arn:aws:ecs namespace, followed by the Region of the container instance, the AWS account ID of the container instance owner, the container-instance namespace, and then the container instance ID. For example, arn:aws:ecs:region:aws_account_id:container-instance/container_instance_ID .</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">containerInstanceArn</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3ECSAAV17ContainerInstanceV18remainingResourcesSayAB8ResourceVGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/remainingResources" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3ECSAAV17ContainerInstanceV18remainingResourcesSayAB8ResourceVGSgvp">remainingResources</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>For CPU and memory resource types, this parameter describes the remaining CPU and memory that has not already been allocated to tasks and is therefore available for new tasks. For port resource types, this parameter describes the ports that were reserved by the Amazon ECS container agent (at instance registration time) and any task containers that have reserved port mappings on the host (with the host or bridge network mode). Any port that is not specified here is available for new tasks.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">remainingResources</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../../Structs/ECS/Resource.html">Resource</a></span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3ECSAAV17ContainerInstanceV7versions5Int64VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/version" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3ECSAAV17ContainerInstanceV7versions5Int64VSgvp">version</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The version counter for the container instance. Every time a container instance experiences a change that triggers a CloudWatch event, the version counter is incremented. If you are replicating your Amazon ECS container instance state with CloudWatch Events, you can compare the version of a container instance reported by the Amazon ECS APIs with the version reported in CloudWatch Events for the container instance (inside the detail object) to verify that the version in your event stream is current.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">version</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3ECSAAV17ContainerInstanceV11attachments17pendingTasksCount14agentConnected10attributes07runningfG019registeredResources6status11versionInfo0H12UpdateStatus03ec2C2Id0L2At09containerC3Arn09remainingM00O0ADSayAB10AttachmentVGSg_s5Int32VSgSbSgSayAB9AttributeVGSgAYSayAB8ResourceVGSgSSSgAB07VersionP0VSgAB05AgentqR0OSgA7_15AWSSDKSwiftCore9TimeStampVSgA7_A6_s5Int64VSgtcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(attachments:pendingTasksCount:agentConnected:attributes:runningTasksCount:registeredResources:status:versionInfo:agentUpdateStatus:ec2InstanceId:registeredAt:containerInstanceArn:remainingResources:version:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3ECSAAV17ContainerInstanceV11attachments17pendingTasksCount14agentConnected10attributes07runningfG019registeredResources6status11versionInfo0H12UpdateStatus03ec2C2Id0L2At09containerC3Arn09remainingM00O0ADSayAB10AttachmentVGSg_s5Int32VSgSbSgSayAB9AttributeVGSgAYSayAB8ResourceVGSgSSSgAB07VersionP0VSgAB05AgentqR0OSgA7_15AWSSDKSwiftCore9TimeStampVSgA7_A6_s5Int64VSgtcfc">init(attachments:pendingTasksCount:agentConnected:attributes:runningTasksCount:registeredResources:status:versionInfo:agentUpdateStatus:ec2InstanceId:registeredAt:containerInstanceArn:remainingResources:version:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">attachments</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../../Structs/ECS/Attachment.html">Attachment</a></span><span class="p">]?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">pendingTasksCount</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">agentConnected</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">attributes</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../../Structs/ECS/Attribute.html">Attribute</a></span><span class="p">]?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">runningTasksCount</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">registeredResources</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../../Structs/ECS/Resource.html">Resource</a></span><span class="p">]?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">status</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">versionInfo</span><span class="p">:</span> <span class="kt"><a href="../../Structs/ECS/VersionInfo.html">VersionInfo</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">agentUpdateStatus</span><span class="p">:</span> <span class="kt"><a href="../../Structs/ECS/AgentUpdateStatus.html">AgentUpdateStatus</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">ec2InstanceId</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">registeredAt</span><span class="p">:</span> <span class="kt">TimeStamp</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">containerInstanceArn</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">remainingResources</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../../Structs/ECS/Resource.html">Resource</a></span><span class="p">]?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">version</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>© Copyright (c) 2018 Yuki Takei(noppoMan), Joe Smith(Yasumoto), Jonathan McAllister(jonnymacs)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
