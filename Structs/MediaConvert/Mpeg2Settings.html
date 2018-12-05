@@ -1,0 +1,1360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mpeg2Settings Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../../js/jquery.min.js" defer></script>
+    <script src="../../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/Mpeg2Settings" class="dashAnchor"></a>
+    <a title="Mpeg2Settings Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../../index.html"> Docs</a> (44% documented)</p>
+        <p class="header-right"><a href="https://github.com/swift-aws/aws-sdk-swift"><img src="../../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../../index.html"> Reference</a>
+        <img id="carat" src="../../img/carat.png" />
+        Mpeg2Settings Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../../ACM.html">ACM</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ACMPCA.html">ACMPCA</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../AlexaForBusiness.html">AlexaForBusiness</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../APIGateway.html">APIGateway</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ApplicationAutoScaling.html">ApplicationAutoScaling</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ApplicationDiscoveryService.html">ApplicationDiscoveryService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../AppStream.html">AppStream</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../AppSync.html">AppSync</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Athena.html">Athena</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../AutoScaling.html">AutoScaling</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../AutoScalingPlans.html">AutoScalingPlans</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Batch.html">Batch</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Budgets.html">Budgets</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Cloud9.html">Cloud9</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudDirectory.html">CloudDirectory</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudFormation.html">CloudFormation</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudFront.html">CloudFront</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudHSM.html">CloudHSM</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudHSMV2.html">CloudHSMV2</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudSearch.html">CloudSearch</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudSearchDomain.html">CloudSearchDomain</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudTrail.html">CloudTrail</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudWatch.html">CloudWatch</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudWatchEvents.html">CloudWatchEvents</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudWatchLogs.html">CloudWatchLogs</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CodeBuild.html">CodeBuild</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CodeCommit.html">CodeCommit</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CodeDeploy.html">CodeDeploy</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CodePipeline.html">CodePipeline</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CodeStar.html">CodeStar</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CognitoIdentity.html">CognitoIdentity</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CognitoIdentityProvider.html">CognitoIdentityProvider</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CognitoSync.html">CognitoSync</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Comprehend.html">Comprehend</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ConfigService.html">ConfigService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Connect.html">Connect</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CostandUsageReportService.html">CostandUsageReportService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CostExplorer.html">CostExplorer</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../DatabaseMigrationService.html">DatabaseMigrationService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../DataPipeline.html">DataPipeline</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../DAX.html">DAX</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../DeviceFarm.html">DeviceFarm</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../DirectConnect.html">DirectConnect</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../DirectoryService.html">DirectoryService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../DLM.html">DLM</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../DynamoDB.html">DynamoDB</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../DynamoDBStreams.html">DynamoDBStreams</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../EC2.html">EC2</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ECR.html">ECR</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ECS.html">ECS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../EFS.html">EFS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../EKS.html">EKS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ElastiCache.html">ElastiCache</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ElasticBeanstalk.html">ElasticBeanstalk</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ElasticsearchService.html">ElasticsearchService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ElasticTranscoder.html">ElasticTranscoder</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ELB.html">ELB</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ELBV2.html">ELBV2</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../EMR.html">EMR</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Firehose.html">Firehose</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../FMS.html">FMS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../GameLift.html">GameLift</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Glacier.html">Glacier</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Glue.html">Glue</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Greengrass.html">Greengrass</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../GuardDuty.html">GuardDuty</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Health.html">Health</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../IAM.html">IAM</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ImportExport.html">ImportExport</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Inspector.html">Inspector</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../IoT.html">IoT</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../IoT1ClickDevicesService.html">IoT1ClickDevicesService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../IoT1ClickProjects.html">IoT1ClickProjects</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../IoTAnalytics.html">IoTAnalytics</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../IoTDataPlane.html">IoTDataPlane</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../IoTJobsDataPlane.html">IoTJobsDataPlane</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Kinesis.html">Kinesis</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../KinesisAnalytics.html">KinesisAnalytics</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../KinesisVideo.html">KinesisVideo</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../KinesisVideoArchivedMedia.html">KinesisVideoArchivedMedia</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../KinesisVideoMedia.html">KinesisVideoMedia</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../KMS.html">KMS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Lambda.html">Lambda</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../LexModelBuildingService.html">LexModelBuildingService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../LexRuntimeService.html">LexRuntimeService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Lightsail.html">Lightsail</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MachineLearning.html">MachineLearning</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Macie.html">Macie</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MarketplaceCommerceAnalytics.html">MarketplaceCommerceAnalytics</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MarketplaceEntitlementService.html">MarketplaceEntitlementService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MarketplaceMetering.html">MarketplaceMetering</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MediaConvert.html">MediaConvert</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MediaLive.html">MediaLive</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MediaPackage.html">MediaPackage</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MediaStore.html">MediaStore</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MediaStoreData.html">MediaStoreData</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MediaTailor.html">MediaTailor</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MigrationHub.html">MigrationHub</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Mobile.html">Mobile</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MobileAnalytics.html">MobileAnalytics</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MQ.html">MQ</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MTurk.html">MTurk</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Neptune.html">Neptune</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../OpsWorks.html">OpsWorks</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../OpsWorksCM.html">OpsWorksCM</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Organizations.html">Organizations</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../PI.html">PI</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Pinpoint.html">Pinpoint</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Polly.html">Polly</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Pricing.html">Pricing</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../RDS.html">RDS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Redshift.html">Redshift</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Rekognition.html">Rekognition</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ResourceGroups.html">ResourceGroups</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ResourceGroupsTaggingAPI.html">ResourceGroupsTaggingAPI</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Route53.html">Route53</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Route53Domains.html">Route53Domains</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../S3.html">S3</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SageMaker.html">SageMaker</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SageMakerRuntime.html">SageMakerRuntime</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SecretsManager.html">SecretsManager</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ServerlessApplicationRepository.html">ServerlessApplicationRepository</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ServiceCatalog.html">ServiceCatalog</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ServiceDiscovery.html">ServiceDiscovery</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SES.html">SES</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SFN.html">SFN</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Shield.html">Shield</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SimpleDB.html">SimpleDB</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SMS.html">SMS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Snowball.html">Snowball</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SNS.html">SNS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SQS.html">SQS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SSM.html">SSM</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../StorageGateway.html">StorageGateway</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../STS.html">STS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Support.html">Support</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SWF.html">SWF</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../TranscribeService.html">TranscribeService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Translate.html">Translate</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../WAF.html">WAF</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../WAFRegional.html">WAFRegional</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../WorkDocs.html">WorkDocs</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../WorkMail.html">WorkMail</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../WorkSpaces.html">WorkSpaces</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../XRay.html">XRay</a>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Mpeg2Settings</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Mpeg2Settings</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12MediaConvertAAV13Mpeg2SettingsV8_membersSay15AWSSDKSwiftCore14AWSShapeMemberVGvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/_members" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12MediaConvertAAV13Mpeg2SettingsV8_membersSay15AWSSDKSwiftCore14AWSShapeMemberVGvpZ">_members</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">_members</span><span class="p">:</span> <span class="p">[</span><span class="kt">AWSShapeMember</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12MediaConvertAAV13Mpeg2SettingsV18framerateNumerators5Int32VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/framerateNumerator" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12MediaConvertAAV13Mpeg2SettingsV18framerateNumerators5Int32VSgvp">framerateNumerator</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Framerate numerator - framerate is a fraction, e.g. 24000 / 1001 = 23.976 fps.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">framerateNumerator</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12MediaConvertAAV13Mpeg2SettingsV28framerateConversionAlgorithmAB0c9FrameratefG0OSgvp"></a>
+                    <a name="//apple_ref/swift/Property/framerateConversionAlgorithm" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12MediaConvertAAV13Mpeg2SettingsV28framerateConversionAlgorithmAB0c9FrameratefG0OSgvp">framerateConversionAlgorithm</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">framerateConversionAlgorithm</span><span class="p">:</span> <span class="kt"><a href="../../Structs/MediaConvert/Mpeg2FramerateConversionAlgorithm.html">Mpeg2FramerateConversionAlgorithm</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12MediaConvertAAV13Mpeg2SettingsV12parNumerators5Int32VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/parNumerator" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12MediaConvertAAV13Mpeg2SettingsV12parNumerators5Int32VSgvp">parNumerator</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Pixel Aspect Ratio numerator.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">parNumerator</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12MediaConvertAAV13Mpeg2SettingsV15rateControlModeAB0c4RatefG0OSgvp"></a>
+                    <a name="//apple_ref/swift/Property/rateControlMode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12MediaConvertAAV13Mpeg2SettingsV15rateControlModeAB0c4RatefG0OSgvp">rateControlMode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">rateControlMode</span><span class="p">:</span> <span class="kt"><a href="../../Structs/MediaConvert/Mpeg2RateControlMode.html">Mpeg2RateControlMode</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12MediaConvertAAV13Mpeg2SettingsV7gopSizeSdSgvp"></a>
+                    <a name="//apple_ref/swift/Property/gopSize" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12MediaConvertAAV13Mpeg2SettingsV7gopSizeSdSgvp">gopSize</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>GOP Length (keyframe interval) in frames or seconds. Must be greater than zero.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">gopSize</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12MediaConvertAAV13Mpeg2SettingsV20framerateDenominators5Int32VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/framerateDenominator" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12MediaConvertAAV13Mpeg2SettingsV20framerateDenominators5Int32VSgvp">framerateDenominator</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Framerate denominator.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">framerateDenominator</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12MediaConvertAAV13Mpeg2SettingsV12gopSizeUnitsAB0c3GopfG0OSgvp"></a>
+                    <a name="//apple_ref/swift/Property/gopSizeUnits" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12MediaConvertAAV13Mpeg2SettingsV12gopSizeUnitsAB0c3GopfG0OSgvp">gopSizeUnits</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">gopSizeUnits</span><span class="p">:</span> <span class="kt"><a href="../../Structs/MediaConvert/Mpeg2GopSizeUnits.html">Mpeg2GopSizeUnits</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12MediaConvertAAV13Mpeg2SettingsV10parControlAB0c3ParF0OSgvp"></a>
+                    <a name="//apple_ref/swift/Property/parControl" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12MediaConvertAAV13Mpeg2SettingsV10parControlAB0c3ParF0OSgvp">parControl</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">parControl</span><span class="p">:</span> <span class="kt"><a href="../../Structs/MediaConvert/Mpeg2ParControl.html">Mpeg2ParControl</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12MediaConvertAAV13Mpeg2SettingsV16gopClosedCadences5Int32VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/gopClosedCadence" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12MediaConvertAAV13Mpeg2SettingsV16gopClosedCadences5Int32VSgvp">gopClosedCadence</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Frequency of closed GOPs. In streaming applications, it is recommended that this be set to 1 so a decoder joining mid-stream will receive an IDR frame as quickly as possible. Setting this value to 0 will break output segmenting.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">gopClosedCadence</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12MediaConvertAAV13Mpeg2SettingsV20adaptiveQuantizationAB0c8AdaptiveF0OSgvp"></a>
+                    <a name="//apple_ref/swift/Property/adaptiveQuantization" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12MediaConvertAAV13Mpeg2SettingsV20adaptiveQuantizationAB0c8AdaptiveF0OSgvp">adaptiveQuantization</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">adaptiveQuantization</span><span class="p">:</span> <span class="kt"><a href="../../Structs/MediaConvert/Mpeg2AdaptiveQuantization.html">Mpeg2AdaptiveQuantization</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12MediaConvertAAV13Mpeg2SettingsV13interlaceModeAB0c9InterlaceF0OSgvp"></a>
+                    <a name="//apple_ref/swift/Property/interlaceMode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12MediaConvertAAV13Mpeg2SettingsV13interlaceModeAB0c9InterlaceF0OSgvp">interlaceMode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">interlaceMode</span><span class="p">:</span> <span class="kt"><a href="../../Structs/MediaConvert/Mpeg2InterlaceMode.html">Mpeg2InterlaceMode</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12MediaConvertAAV13Mpeg2SettingsV14parDenominators5Int32VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/parDenominator" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12MediaConvertAAV13Mpeg2SettingsV14parDenominators5Int32VSgvp">parDenominator</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Pixel Aspect Ratio denominator.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">parDenominator</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12MediaConvertAAV13Mpeg2SettingsV7slowPalAB0c4SlowF0OSgvp"></a>
+                    <a name="//apple_ref/swift/Property/slowPal" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12MediaConvertAAV13Mpeg2SettingsV7slowPalAB0c4SlowF0OSgvp">slowPal</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">slowPal</span><span class="p">:</span> <span class="kt"><a href="../../Structs/MediaConvert/Mpeg2SlowPal.html">Mpeg2SlowPal</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12MediaConvertAAV13Mpeg2SettingsV8telecineAB0C8TelecineOSgvp"></a>
+                    <a name="//apple_ref/swift/Property/telecine" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12MediaConvertAAV13Mpeg2SettingsV8telecineAB0C8TelecineOSgvp">telecine</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">telecine</span><span class="p">:</span> <span class="kt"><a href="../../Structs/MediaConvert/Mpeg2Telecine.html">Mpeg2Telecine</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12MediaConvertAAV13Mpeg2SettingsV35numberBFramesBetweenReferenceFramess5Int32VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/numberBFramesBetweenReferenceFrames" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12MediaConvertAAV13Mpeg2SettingsV35numberBFramesBetweenReferenceFramess5Int32VSgvp">numberBFramesBetweenReferenceFrames</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Number of B-frames between reference frames.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">numberBFramesBetweenReferenceFrames</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12MediaConvertAAV13Mpeg2SettingsV16intraDcPrecisionAB0c5IntrafG0OSgvp"></a>
+                    <a name="//apple_ref/swift/Property/intraDcPrecision" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12MediaConvertAAV13Mpeg2SettingsV16intraDcPrecisionAB0c5IntrafG0OSgvp">intraDcPrecision</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">intraDcPrecision</span><span class="p">:</span> <span class="kt"><a href="../../Structs/MediaConvert/Mpeg2IntraDcPrecision.html">Mpeg2IntraDcPrecision</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12MediaConvertAAV13Mpeg2SettingsV10codecLevelAB0c5CodecF0OSgvp"></a>
+                    <a name="//apple_ref/swift/Property/codecLevel" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12MediaConvertAAV13Mpeg2SettingsV10codecLevelAB0c5CodecF0OSgvp">codecLevel</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">codecLevel</span><span class="p">:</span> <span class="kt"><a href="../../Structs/MediaConvert/Mpeg2CodecLevel.html">Mpeg2CodecLevel</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12MediaConvertAAV13Mpeg2SettingsV8softnesss5Int32VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/softness" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12MediaConvertAAV13Mpeg2SettingsV8softnesss5Int32VSgvp">softness</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Softness. Selects quantizer matrix, larger values reduce high-frequency content in the encoded image.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">softness</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12MediaConvertAAV13Mpeg2SettingsV7bitrates5Int32VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/bitrate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12MediaConvertAAV13Mpeg2SettingsV7bitrates5Int32VSgvp">bitrate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Average bitrate in bits/second. Required for VBR and CBR. For MS Smooth outputs, bitrates must be unique when rounded down to the nearest multiple of 1000.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">bitrate</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12MediaConvertAAV13Mpeg2SettingsV16framerateControlAB0c9FramerateF0OSgvp"></a>
+                    <a name="//apple_ref/swift/Property/framerateControl" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12MediaConvertAAV13Mpeg2SettingsV16framerateControlAB0c9FramerateF0OSgvp">framerateControl</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">framerateControl</span><span class="p">:</span> <span class="kt"><a href="../../Structs/MediaConvert/Mpeg2FramerateControl.html">Mpeg2FramerateControl</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12MediaConvertAAV13Mpeg2SettingsV18qualityTuningLevelAB0c7QualityfG0OSgvp"></a>
+                    <a name="//apple_ref/swift/Property/qualityTuningLevel" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12MediaConvertAAV13Mpeg2SettingsV18qualityTuningLevelAB0c7QualityfG0OSgvp">qualityTuningLevel</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">qualityTuningLevel</span><span class="p">:</span> <span class="kt"><a href="../../Structs/MediaConvert/Mpeg2QualityTuningLevel.html">Mpeg2QualityTuningLevel</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12MediaConvertAAV13Mpeg2SettingsV30hrdBufferInitialFillPercentages5Int32VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/hrdBufferInitialFillPercentage" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12MediaConvertAAV13Mpeg2SettingsV30hrdBufferInitialFillPercentages5Int32VSgvp">hrdBufferInitialFillPercentage</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Percentage of the buffer that should initially be filled (HRD buffer model).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">hrdBufferInitialFillPercentage</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12MediaConvertAAV13Mpeg2SettingsV27spatialAdaptiveQuantizationAB0c7SpatialfG0OSgvp"></a>
+                    <a name="//apple_ref/swift/Property/spatialAdaptiveQuantization" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12MediaConvertAAV13Mpeg2SettingsV27spatialAdaptiveQuantizationAB0c7SpatialfG0OSgvp">spatialAdaptiveQuantization</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">spatialAdaptiveQuantization</span><span class="p">:</span> <span class="kt"><a href="../../Structs/MediaConvert/Mpeg2SpatialAdaptiveQuantization.html">Mpeg2SpatialAdaptiveQuantization</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12MediaConvertAAV13Mpeg2SettingsV17sceneChangeDetectAB0c5ScenefG0OSgvp"></a>
+                    <a name="//apple_ref/swift/Property/sceneChangeDetect" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12MediaConvertAAV13Mpeg2SettingsV17sceneChangeDetectAB0c5ScenefG0OSgvp">sceneChangeDetect</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">sceneChangeDetect</span><span class="p">:</span> <span class="kt"><a href="../../Structs/MediaConvert/Mpeg2SceneChangeDetect.html">Mpeg2SceneChangeDetect</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12MediaConvertAAV13Mpeg2SettingsV6syntaxAB0C6SyntaxOSgvp"></a>
+                    <a name="//apple_ref/swift/Property/syntax" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12MediaConvertAAV13Mpeg2SettingsV6syntaxAB0C6SyntaxOSgvp">syntax</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">syntax</span><span class="p">:</span> <span class="kt"><a href="../../Structs/MediaConvert/Mpeg2Syntax.html">Mpeg2Syntax</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12MediaConvertAAV13Mpeg2SettingsV12codecProfileAB0c5CodecF0OSgvp"></a>
+                    <a name="//apple_ref/swift/Property/codecProfile" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12MediaConvertAAV13Mpeg2SettingsV12codecProfileAB0c5CodecF0OSgvp">codecProfile</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">codecProfile</span><span class="p">:</span> <span class="kt"><a href="../../Structs/MediaConvert/Mpeg2CodecProfile.html">Mpeg2CodecProfile</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12MediaConvertAAV13Mpeg2SettingsV12minIIntervals5Int32VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/minIInterval" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12MediaConvertAAV13Mpeg2SettingsV12minIIntervals5Int32VSgvp">minIInterval</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Enforces separation between repeated (cadence) I-frames and I-frames inserted by Scene Change Detection. If a scene change I-frame is within I-interval frames of a cadence I-frame, the GOP is shrunk and/or stretched to the scene change I-frame. GOP stretch requires enabling lookahead as well as setting I-interval. The normal cadence resumes for the next GOP. This setting is only used when Scene Change Detect is enabled. Note: Maximum GOP stretch = GOP size + Min-I-interval - 1</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">minIInterval</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12MediaConvertAAV13Mpeg2SettingsV13hrdBufferSizes5Int32VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/hrdBufferSize" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12MediaConvertAAV13Mpeg2SettingsV13hrdBufferSizes5Int32VSgvp">hrdBufferSize</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Size of buffer (HRD buffer model) in bits. For example, enter five megabits as 5000000.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">hrdBufferSize</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12MediaConvertAAV13Mpeg2SettingsV28temporalAdaptiveQuantizationAB0c8TemporalfG0OSgvp"></a>
+                    <a name="//apple_ref/swift/Property/temporalAdaptiveQuantization" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12MediaConvertAAV13Mpeg2SettingsV28temporalAdaptiveQuantizationAB0c8TemporalfG0OSgvp">temporalAdaptiveQuantization</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">temporalAdaptiveQuantization</span><span class="p">:</span> <span class="kt"><a href="../../Structs/MediaConvert/Mpeg2TemporalAdaptiveQuantization.html">Mpeg2TemporalAdaptiveQuantization</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12MediaConvertAAV13Mpeg2SettingsV10maxBitrates5Int32VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/maxBitrate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12MediaConvertAAV13Mpeg2SettingsV10maxBitrates5Int32VSgvp">maxBitrate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Maximum bitrate in bits/second. For example, enter five megabits per second as 5000000.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">maxBitrate</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12MediaConvertAAV13Mpeg2SettingsV18framerateNumerator0E19ConversionAlgorithm03parF015rateControlMode7gopSize0E11Denominator0mN5Units0iK00M13ClosedCadence20adaptiveQuantization09interlaceL00iO07slowPal8telecine35numberBFramesBetweenReferenceFrames16intraDcPrecision10codecLevel8softness7bitrate0eK018qualityTuningLevel30hrdBufferInitialFillPercentage015spatialAdaptiveT017sceneChangeDetect6syntax12codecProfile12minIInterval09hrdBufferN0016temporalAdaptiveT010maxBitrateADs5Int32VSg_AB0c9FramerategH0OSgA9_AB0c4RatekL0OSgSdSgA9_AB0c3GopnP0OSgAB0c3ParK0OSgA9_AB0c8AdaptiveT0OSgAB0c9InterlaceL0OSgA9_AB0c4SlowW0OSgAB0C8TelecineOSgA9_AB0C16IntraDcPrecisionOSgAB0C10CodecLevelOSgA9_A9_AB0c9FramerateK0OSgAB0C18QualityTuningLevelOSgA9_AB0c15SpatialAdaptiveT0OSgAB0C17SceneChangeDetectOSgAB0C6SyntaxOSgAB0C12CodecProfileOSgA9_A9_AB0c16TemporalAdaptiveT0OSgA9_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(framerateNumerator:framerateConversionAlgorithm:parNumerator:rateControlMode:gopSize:framerateDenominator:gopSizeUnits:parControl:gopClosedCadence:adaptiveQuantization:interlaceMode:parDenominator:slowPal:telecine:numberBFramesBetweenReferenceFrames:intraDcPrecision:codecLevel:softness:bitrate:framerateControl:qualityTuningLevel:hrdBufferInitialFillPercentage:spatialAdaptiveQuantization:sceneChangeDetect:syntax:codecProfile:minIInterval:hrdBufferSize:temporalAdaptiveQuantization:maxBitrate:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12MediaConvertAAV13Mpeg2SettingsV18framerateNumerator0E19ConversionAlgorithm03parF015rateControlMode7gopSize0E11Denominator0mN5Units0iK00M13ClosedCadence20adaptiveQuantization09interlaceL00iO07slowPal8telecine35numberBFramesBetweenReferenceFrames16intraDcPrecision10codecLevel8softness7bitrate0eK018qualityTuningLevel30hrdBufferInitialFillPercentage015spatialAdaptiveT017sceneChangeDetect6syntax12codecProfile12minIInterval09hrdBufferN0016temporalAdaptiveT010maxBitrateADs5Int32VSg_AB0c9FramerategH0OSgA9_AB0c4RatekL0OSgSdSgA9_AB0c3GopnP0OSgAB0c3ParK0OSgA9_AB0c8AdaptiveT0OSgAB0c9InterlaceL0OSgA9_AB0c4SlowW0OSgAB0C8TelecineOSgA9_AB0C16IntraDcPrecisionOSgAB0C10CodecLevelOSgA9_A9_AB0c9FramerateK0OSgAB0C18QualityTuningLevelOSgA9_AB0c15SpatialAdaptiveT0OSgAB0C17SceneChangeDetectOSgAB0C6SyntaxOSgAB0C12CodecProfileOSgA9_A9_AB0c16TemporalAdaptiveT0OSgA9_tcfc">init(framerateNumerator:framerateConversionAlgorithm:parNumerator:rateControlMode:gopSize:framerateDenominator:gopSizeUnits:parControl:gopClosedCadence:adaptiveQuantization:interlaceMode:parDenominator:slowPal:telecine:numberBFramesBetweenReferenceFrames:intraDcPrecision:codecLevel:softness:bitrate:framerateControl:qualityTuningLevel:hrdBufferInitialFillPercentage:spatialAdaptiveQuantization:sceneChangeDetect:syntax:codecProfile:minIInterval:hrdBufferSize:temporalAdaptiveQuantization:maxBitrate:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">framerateNumerator</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">framerateConversionAlgorithm</span><span class="p">:</span> <span class="kt"><a href="../../Structs/MediaConvert/Mpeg2FramerateConversionAlgorithm.html">Mpeg2FramerateConversionAlgorithm</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">parNumerator</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">rateControlMode</span><span class="p">:</span> <span class="kt"><a href="../../Structs/MediaConvert/Mpeg2RateControlMode.html">Mpeg2RateControlMode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">gopSize</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">framerateDenominator</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">gopSizeUnits</span><span class="p">:</span> <span class="kt"><a href="../../Structs/MediaConvert/Mpeg2GopSizeUnits.html">Mpeg2GopSizeUnits</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">parControl</span><span class="p">:</span> <span class="kt"><a href="../../Structs/MediaConvert/Mpeg2ParControl.html">Mpeg2ParControl</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">gopClosedCadence</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">adaptiveQuantization</span><span class="p">:</span> <span class="kt"><a href="../../Structs/MediaConvert/Mpeg2AdaptiveQuantization.html">Mpeg2AdaptiveQuantization</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">interlaceMode</span><span class="p">:</span> <span class="kt"><a href="../../Structs/MediaConvert/Mpeg2InterlaceMode.html">Mpeg2InterlaceMode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">parDenominator</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">slowPal</span><span class="p">:</span> <span class="kt"><a href="../../Structs/MediaConvert/Mpeg2SlowPal.html">Mpeg2SlowPal</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">telecine</span><span class="p">:</span> <span class="kt"><a href="../../Structs/MediaConvert/Mpeg2Telecine.html">Mpeg2Telecine</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">numberBFramesBetweenReferenceFrames</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">intraDcPrecision</span><span class="p">:</span> <span class="kt"><a href="../../Structs/MediaConvert/Mpeg2IntraDcPrecision.html">Mpeg2IntraDcPrecision</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">codecLevel</span><span class="p">:</span> <span class="kt"><a href="../../Structs/MediaConvert/Mpeg2CodecLevel.html">Mpeg2CodecLevel</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">softness</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">bitrate</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">framerateControl</span><span class="p">:</span> <span class="kt"><a href="../../Structs/MediaConvert/Mpeg2FramerateControl.html">Mpeg2FramerateControl</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">qualityTuningLevel</span><span class="p">:</span> <span class="kt"><a href="../../Structs/MediaConvert/Mpeg2QualityTuningLevel.html">Mpeg2QualityTuningLevel</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">hrdBufferInitialFillPercentage</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">spatialAdaptiveQuantization</span><span class="p">:</span> <span class="kt"><a href="../../Structs/MediaConvert/Mpeg2SpatialAdaptiveQuantization.html">Mpeg2SpatialAdaptiveQuantization</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">sceneChangeDetect</span><span class="p">:</span> <span class="kt"><a href="../../Structs/MediaConvert/Mpeg2SceneChangeDetect.html">Mpeg2SceneChangeDetect</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">syntax</span><span class="p">:</span> <span class="kt"><a href="../../Structs/MediaConvert/Mpeg2Syntax.html">Mpeg2Syntax</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">codecProfile</span><span class="p">:</span> <span class="kt"><a href="../../Structs/MediaConvert/Mpeg2CodecProfile.html">Mpeg2CodecProfile</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">minIInterval</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">hrdBufferSize</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">temporalAdaptiveQuantization</span><span class="p">:</span> <span class="kt"><a href="../../Structs/MediaConvert/Mpeg2TemporalAdaptiveQuantization.html">Mpeg2TemporalAdaptiveQuantization</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">maxBitrate</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>© Copyright (c) 2018 Yuki Takei(noppoMan), Joe Smith(Yasumoto), Jonathan McAllister(jonnymacs)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

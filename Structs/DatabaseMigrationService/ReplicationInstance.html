@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ReplicationInstance Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../../js/jquery.min.js" defer></script>
+    <script src="../../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/ReplicationInstance" class="dashAnchor"></a>
+    <a title="ReplicationInstance Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../../index.html"> Docs</a> (44% documented)</p>
+        <p class="header-right"><a href="https://github.com/swift-aws/aws-sdk-swift"><img src="../../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../../index.html"> Reference</a>
+        <img id="carat" src="../../img/carat.png" />
+        ReplicationInstance Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../../ACM.html">ACM</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ACMPCA.html">ACMPCA</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../AlexaForBusiness.html">AlexaForBusiness</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../APIGateway.html">APIGateway</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ApplicationAutoScaling.html">ApplicationAutoScaling</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ApplicationDiscoveryService.html">ApplicationDiscoveryService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../AppStream.html">AppStream</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../AppSync.html">AppSync</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Athena.html">Athena</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../AutoScaling.html">AutoScaling</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../AutoScalingPlans.html">AutoScalingPlans</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Batch.html">Batch</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Budgets.html">Budgets</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Cloud9.html">Cloud9</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudDirectory.html">CloudDirectory</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudFormation.html">CloudFormation</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudFront.html">CloudFront</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudHSM.html">CloudHSM</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudHSMV2.html">CloudHSMV2</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudSearch.html">CloudSearch</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudSearchDomain.html">CloudSearchDomain</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudTrail.html">CloudTrail</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudWatch.html">CloudWatch</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudWatchEvents.html">CloudWatchEvents</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudWatchLogs.html">CloudWatchLogs</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CodeBuild.html">CodeBuild</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CodeCommit.html">CodeCommit</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CodeDeploy.html">CodeDeploy</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CodePipeline.html">CodePipeline</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CodeStar.html">CodeStar</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CognitoIdentity.html">CognitoIdentity</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CognitoIdentityProvider.html">CognitoIdentityProvider</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CognitoSync.html">CognitoSync</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Comprehend.html">Comprehend</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ConfigService.html">ConfigService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Connect.html">Connect</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CostandUsageReportService.html">CostandUsageReportService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CostExplorer.html">CostExplorer</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../DatabaseMigrationService.html">DatabaseMigrationService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../DataPipeline.html">DataPipeline</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../DAX.html">DAX</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../DeviceFarm.html">DeviceFarm</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../DirectConnect.html">DirectConnect</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../DirectoryService.html">DirectoryService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../DLM.html">DLM</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../DynamoDB.html">DynamoDB</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../DynamoDBStreams.html">DynamoDBStreams</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../EC2.html">EC2</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ECR.html">ECR</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ECS.html">ECS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../EFS.html">EFS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../EKS.html">EKS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ElastiCache.html">ElastiCache</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ElasticBeanstalk.html">ElasticBeanstalk</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ElasticsearchService.html">ElasticsearchService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ElasticTranscoder.html">ElasticTranscoder</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ELB.html">ELB</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ELBV2.html">ELBV2</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../EMR.html">EMR</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Firehose.html">Firehose</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../FMS.html">FMS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../GameLift.html">GameLift</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Glacier.html">Glacier</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Glue.html">Glue</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Greengrass.html">Greengrass</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../GuardDuty.html">GuardDuty</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Health.html">Health</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../IAM.html">IAM</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ImportExport.html">ImportExport</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Inspector.html">Inspector</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../IoT.html">IoT</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../IoT1ClickDevicesService.html">IoT1ClickDevicesService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../IoT1ClickProjects.html">IoT1ClickProjects</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../IoTAnalytics.html">IoTAnalytics</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../IoTDataPlane.html">IoTDataPlane</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../IoTJobsDataPlane.html">IoTJobsDataPlane</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Kinesis.html">Kinesis</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../KinesisAnalytics.html">KinesisAnalytics</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../KinesisVideo.html">KinesisVideo</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../KinesisVideoArchivedMedia.html">KinesisVideoArchivedMedia</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../KinesisVideoMedia.html">KinesisVideoMedia</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../KMS.html">KMS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Lambda.html">Lambda</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../LexModelBuildingService.html">LexModelBuildingService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../LexRuntimeService.html">LexRuntimeService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Lightsail.html">Lightsail</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MachineLearning.html">MachineLearning</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Macie.html">Macie</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MarketplaceCommerceAnalytics.html">MarketplaceCommerceAnalytics</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MarketplaceEntitlementService.html">MarketplaceEntitlementService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MarketplaceMetering.html">MarketplaceMetering</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MediaConvert.html">MediaConvert</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MediaLive.html">MediaLive</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MediaPackage.html">MediaPackage</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MediaStore.html">MediaStore</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MediaStoreData.html">MediaStoreData</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MediaTailor.html">MediaTailor</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MigrationHub.html">MigrationHub</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Mobile.html">Mobile</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MobileAnalytics.html">MobileAnalytics</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MQ.html">MQ</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MTurk.html">MTurk</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Neptune.html">Neptune</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../OpsWorks.html">OpsWorks</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../OpsWorksCM.html">OpsWorksCM</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Organizations.html">Organizations</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../PI.html">PI</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Pinpoint.html">Pinpoint</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Polly.html">Polly</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Pricing.html">Pricing</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../RDS.html">RDS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Redshift.html">Redshift</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Rekognition.html">Rekognition</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ResourceGroups.html">ResourceGroups</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ResourceGroupsTaggingAPI.html">ResourceGroupsTaggingAPI</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Route53.html">Route53</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Route53Domains.html">Route53Domains</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../S3.html">S3</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SageMaker.html">SageMaker</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SageMakerRuntime.html">SageMakerRuntime</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SecretsManager.html">SecretsManager</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ServerlessApplicationRepository.html">ServerlessApplicationRepository</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ServiceCatalog.html">ServiceCatalog</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ServiceDiscovery.html">ServiceDiscovery</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SES.html">SES</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SFN.html">SFN</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Shield.html">Shield</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SimpleDB.html">SimpleDB</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SMS.html">SMS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Snowball.html">Snowball</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SNS.html">SNS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SQS.html">SQS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SSM.html">SSM</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../StorageGateway.html">StorageGateway</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../STS.html">STS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Support.html">Support</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SWF.html">SWF</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../TranscribeService.html">TranscribeService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Translate.html">Translate</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../WAF.html">WAF</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../WAFRegional.html">WAFRegional</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../WorkDocs.html">WorkDocs</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../WorkMail.html">WorkMail</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../WorkSpaces.html">WorkSpaces</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../XRay.html">XRay</a>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>ReplicationInstance</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ReplicationInstance</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV8_membersSay15AWSSDKSwiftCore14AWSShapeMemberVGvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/_members" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV8_membersSay15AWSSDKSwiftCore14AWSShapeMemberVGvpZ">_members</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">_members</span><span class="p">:</span> <span class="p">[</span><span class="kt">AWSShapeMember</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV011replicationE15PublicIpAddressSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/replicationInstancePublicIpAddress" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV011replicationE15PublicIpAddressSSSgvp">replicationInstancePublicIpAddress</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The public IP address of the replication instance.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">replicationInstancePublicIpAddress</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV011replicationE5ClassSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/replicationInstanceClass" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV011replicationE5ClassSSSgvp">replicationInstanceClass</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The compute and memory capacity of the replication instance.  Valid Values: dms.t2.micro | dms.t2.small | dms.t2.medium | dms.t2.large | dms.c4.large | dms.c4.xlarge | dms.c4.2xlarge | dms.c4.4xlarge</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">replicationInstanceClass</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV011replicationE18PrivateIpAddressesSaySSGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/replicationInstancePrivateIpAddresses" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV011replicationE18PrivateIpAddressesSaySSGSgvp">replicationInstancePrivateIpAddresses</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The private IP address of the replication instance.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">replicationInstancePrivateIpAddresses</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV18instanceCreateTime15AWSSDKSwiftCore0H5StampVSgvp"></a>
+                    <a name="//apple_ref/swift/Property/instanceCreateTime" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV18instanceCreateTime15AWSSDKSwiftCore0H5StampVSgvp">instanceCreateTime</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The time the replication instance was created.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">instanceCreateTime</span><span class="p">:</span> <span class="kt">TimeStamp</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV8kmsKeyIdSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/kmsKeyId" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV8kmsKeyIdSSSgvp">kmsKeyId</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The KMS key identifier that is used to encrypt the content on the replication instance. If you do not specify a value for the KmsKeyId parameter, then AWS DMS will use your default encryption key. AWS KMS creates the default encryption key for your AWS account. Your AWS account has a different default encryption key for each AWS region.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">kmsKeyId</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV7multiAZSbSgvp"></a>
+                    <a name="//apple_ref/swift/Property/multiAZ" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV7multiAZSbSgvp">multiAZ</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Specifies if the replication instance is a Multi-AZ deployment. You cannot set the AvailabilityZone parameter if the Multi-AZ parameter is set to true.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">multiAZ</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV9freeUntil15AWSSDKSwiftCore9TimeStampVSgvp"></a>
+                    <a name="//apple_ref/swift/Property/freeUntil" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV9freeUntil15AWSSDKSwiftCore9TimeStampVSgvp">freeUntil</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The expiration date of the free replication instance that is part of the Free DMS program.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">freeUntil</span><span class="p">:</span> <span class="kt">TimeStamp</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV011replicationE17PublicIpAddressesSaySSGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/replicationInstancePublicIpAddresses" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV011replicationE17PublicIpAddressesSaySSGSgvp">replicationInstancePublicIpAddresses</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The public IP address of the replication instance.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">replicationInstancePublicIpAddresses</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV011replicationE3ArnSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/replicationInstanceArn" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV011replicationE3ArnSSSgvp">replicationInstanceArn</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The Amazon Resource Name (ARN) of the replication instance.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">replicationInstanceArn</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV23autoMinorVersionUpgradeSbSgvp"></a>
+                    <a name="//apple_ref/swift/Property/autoMinorVersionUpgrade" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV23autoMinorVersionUpgradeSbSgvp">autoMinorVersionUpgrade</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Boolean value indicating if minor version upgrades will be automatically applied to the instance.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">autoMinorVersionUpgrade</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV011replicationE6StatusSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/replicationInstanceStatus" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV011replicationE6StatusSSSgvp">replicationInstanceStatus</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The status of the replication instance.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">replicationInstanceStatus</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV21pendingModifiedValuesAB0d7PendinggH0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/pendingModifiedValues" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV21pendingModifiedValuesAB0d7PendinggH0VSgvp">pendingModifiedValues</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The pending modification values.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">pendingModifiedValues</span><span class="p">:</span> <span class="kt"><a href="../../Structs/DatabaseMigrationService/ReplicationPendingModifiedValues.html">ReplicationPendingModifiedValues</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV13engineVersionSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/engineVersion" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV13engineVersionSSSgvp">engineVersion</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The engine version number of the replication instance.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">engineVersion</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV011replicationE16PrivateIpAddressSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/replicationInstancePrivateIpAddress" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV011replicationE16PrivateIpAddressSSSgvp">replicationInstancePrivateIpAddress</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The private IP address of the replication instance.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">replicationInstancePrivateIpAddress</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV26preferredMaintenanceWindowSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/preferredMaintenanceWindow" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV26preferredMaintenanceWindowSSSgvp">preferredMaintenanceWindow</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The maintenance window times for the replication instance.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">preferredMaintenanceWindow</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV011replicationE10IdentifierSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/replicationInstanceIdentifier" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV011replicationE10IdentifierSSSgvp">replicationInstanceIdentifier</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The replication instance identifier. This parameter is stored as a lowercase string. Constraints:   Must contain from 1 to 63 alphanumeric characters or hyphens.   First character must be a letter.   Cannot end with a hyphen or contain two consecutive hyphens.   Example: myrepinstance</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">replicationInstanceIdentifier</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV25secondaryAvailabilityZoneSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/secondaryAvailabilityZone" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV25secondaryAvailabilityZoneSSSgvp">secondaryAvailabilityZone</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The availability zone of the standby replication instance in a Multi-AZ deployment.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">secondaryAvailabilityZone</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV16availabilityZoneSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/availabilityZone" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV16availabilityZoneSSSgvp">availabilityZone</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The Availability Zone for the instance.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">availabilityZone</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV16allocatedStorages5Int32VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/allocatedStorage" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV16allocatedStorages5Int32VSgvp">allocatedStorage</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The amount of storage (in gigabytes) that is allocated for the replication instance.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">allocatedStorage</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV18publiclyAccessibleSbSgvp"></a>
+                    <a name="//apple_ref/swift/Property/publiclyAccessible" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV18publiclyAccessibleSbSgvp">publiclyAccessible</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Specifies the accessibility options for the replication instance. A value of true represents an instance with a public IP address. A value of false represents an instance with a private IP address. The default value is true.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">publiclyAccessible</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV17vpcSecurityGroupsSayAB03VpcG15GroupMembershipVGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/vpcSecurityGroups" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV17vpcSecurityGroupsSayAB03VpcG15GroupMembershipVGSgvp">vpcSecurityGroups</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The VPC security group for the instance.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">vpcSecurityGroups</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../../Structs/DatabaseMigrationService/VpcSecurityGroupMembership.html">VpcSecurityGroupMembership</a></span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV22replicationSubnetGroupAB0dgH0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/replicationSubnetGroup" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV22replicationSubnetGroupAB0dgH0VSgvp">replicationSubnetGroup</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The subnet group for the replication instance.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">replicationSubnetGroup</span><span class="p">:</span> <span class="kt"><a href="../../Structs/DatabaseMigrationService/ReplicationSubnetGroup.html">ReplicationSubnetGroup</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV011replicationE15PublicIpAddress0fE5Class0fe7PrivateH9Addresses18instanceCreateTime8kmsKeyId7multiAZ9freeUntil0feghL00fE3Arn23autoMinorVersionUpgrade0fE6Status21pendingModifiedValues06engineZ00fekhI026preferredMaintenanceWindow0fE10Identifier25secondaryAvailabilityZone16availabilityZone16allocatedStorage18publiclyAccessible17vpcSecurityGroups0F11SubnetGroupADSSSg_A_SaySSGSg15AWSSDKSwiftCore0O5StampVSgA_SbSgA5_A1_A_A6_A_AB0D21PendingModifiedValuesVSgA_A_A_A_A_A_s5Int32VSgA6_SayAB26VpcSecurityGroupMembershipVGSgAB0D11SubnetGroupVSgtcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(replicationInstancePublicIpAddress:replicationInstanceClass:replicationInstancePrivateIpAddresses:instanceCreateTime:kmsKeyId:multiAZ:freeUntil:replicationInstancePublicIpAddresses:replicationInstanceArn:autoMinorVersionUpgrade:replicationInstanceStatus:pendingModifiedValues:engineVersion:replicationInstancePrivateIpAddress:preferredMaintenanceWindow:replicationInstanceIdentifier:secondaryAvailabilityZone:availabilityZone:allocatedStorage:publiclyAccessible:vpcSecurityGroups:replicationSubnetGroup:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24DatabaseMigrationServiceAAV19ReplicationInstanceV011replicationE15PublicIpAddress0fE5Class0fe7PrivateH9Addresses18instanceCreateTime8kmsKeyId7multiAZ9freeUntil0feghL00fE3Arn23autoMinorVersionUpgrade0fE6Status21pendingModifiedValues06engineZ00fekhI026preferredMaintenanceWindow0fE10Identifier25secondaryAvailabilityZone16availabilityZone16allocatedStorage18publiclyAccessible17vpcSecurityGroups0F11SubnetGroupADSSSg_A_SaySSGSg15AWSSDKSwiftCore0O5StampVSgA_SbSgA5_A1_A_A6_A_AB0D21PendingModifiedValuesVSgA_A_A_A_A_A_s5Int32VSgA6_SayAB26VpcSecurityGroupMembershipVGSgAB0D11SubnetGroupVSgtcfc">init(replicationInstancePublicIpAddress:replicationInstanceClass:replicationInstancePrivateIpAddresses:instanceCreateTime:kmsKeyId:multiAZ:freeUntil:replicationInstancePublicIpAddresses:replicationInstanceArn:autoMinorVersionUpgrade:replicationInstanceStatus:pendingModifiedValues:engineVersion:replicationInstancePrivateIpAddress:preferredMaintenanceWindow:replicationInstanceIdentifier:secondaryAvailabilityZone:availabilityZone:allocatedStorage:publiclyAccessible:vpcSecurityGroups:replicationSubnetGroup:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">replicationInstancePublicIpAddress</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">replicationInstanceClass</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">replicationInstancePrivateIpAddresses</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">instanceCreateTime</span><span class="p">:</span> <span class="kt">TimeStamp</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">kmsKeyId</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">multiAZ</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">freeUntil</span><span class="p">:</span> <span class="kt">TimeStamp</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">replicationInstancePublicIpAddresses</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">replicationInstanceArn</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">autoMinorVersionUpgrade</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">replicationInstanceStatus</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">pendingModifiedValues</span><span class="p">:</span> <span class="kt"><a href="../../Structs/DatabaseMigrationService/ReplicationPendingModifiedValues.html">ReplicationPendingModifiedValues</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">engineVersion</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">replicationInstancePrivateIpAddress</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">preferredMaintenanceWindow</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">replicationInstanceIdentifier</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">secondaryAvailabilityZone</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">availabilityZone</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">allocatedStorage</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">publiclyAccessible</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">vpcSecurityGroups</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../../Structs/DatabaseMigrationService/VpcSecurityGroupMembership.html">VpcSecurityGroupMembership</a></span><span class="p">]?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">replicationSubnetGroup</span><span class="p">:</span> <span class="kt"><a href="../../Structs/DatabaseMigrationService/ReplicationSubnetGroup.html">ReplicationSubnetGroup</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>© Copyright (c) 2018 Yuki Takei(noppoMan), Joe Smith(Yasumoto), Jonathan McAllister(jonnymacs)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

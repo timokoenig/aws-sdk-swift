@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HistoryEvent Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../../js/jquery.min.js" defer></script>
+    <script src="../../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/HistoryEvent" class="dashAnchor"></a>
+    <a title="HistoryEvent Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../../index.html"> Docs</a> (44% documented)</p>
+        <p class="header-right"><a href="https://github.com/swift-aws/aws-sdk-swift"><img src="../../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../../index.html"> Reference</a>
+        <img id="carat" src="../../img/carat.png" />
+        HistoryEvent Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../../ACM.html">ACM</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ACMPCA.html">ACMPCA</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../AlexaForBusiness.html">AlexaForBusiness</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../APIGateway.html">APIGateway</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ApplicationAutoScaling.html">ApplicationAutoScaling</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ApplicationDiscoveryService.html">ApplicationDiscoveryService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../AppStream.html">AppStream</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../AppSync.html">AppSync</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Athena.html">Athena</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../AutoScaling.html">AutoScaling</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../AutoScalingPlans.html">AutoScalingPlans</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Batch.html">Batch</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Budgets.html">Budgets</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Cloud9.html">Cloud9</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudDirectory.html">CloudDirectory</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudFormation.html">CloudFormation</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudFront.html">CloudFront</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudHSM.html">CloudHSM</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudHSMV2.html">CloudHSMV2</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudSearch.html">CloudSearch</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudSearchDomain.html">CloudSearchDomain</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudTrail.html">CloudTrail</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudWatch.html">CloudWatch</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudWatchEvents.html">CloudWatchEvents</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CloudWatchLogs.html">CloudWatchLogs</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CodeBuild.html">CodeBuild</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CodeCommit.html">CodeCommit</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CodeDeploy.html">CodeDeploy</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CodePipeline.html">CodePipeline</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CodeStar.html">CodeStar</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CognitoIdentity.html">CognitoIdentity</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CognitoIdentityProvider.html">CognitoIdentityProvider</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CognitoSync.html">CognitoSync</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Comprehend.html">Comprehend</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ConfigService.html">ConfigService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Connect.html">Connect</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CostandUsageReportService.html">CostandUsageReportService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../CostExplorer.html">CostExplorer</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../DatabaseMigrationService.html">DatabaseMigrationService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../DataPipeline.html">DataPipeline</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../DAX.html">DAX</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../DeviceFarm.html">DeviceFarm</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../DirectConnect.html">DirectConnect</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../DirectoryService.html">DirectoryService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../DLM.html">DLM</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../DynamoDB.html">DynamoDB</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../DynamoDBStreams.html">DynamoDBStreams</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../EC2.html">EC2</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ECR.html">ECR</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ECS.html">ECS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../EFS.html">EFS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../EKS.html">EKS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ElastiCache.html">ElastiCache</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ElasticBeanstalk.html">ElasticBeanstalk</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ElasticsearchService.html">ElasticsearchService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ElasticTranscoder.html">ElasticTranscoder</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ELB.html">ELB</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ELBV2.html">ELBV2</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../EMR.html">EMR</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Firehose.html">Firehose</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../FMS.html">FMS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../GameLift.html">GameLift</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Glacier.html">Glacier</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Glue.html">Glue</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Greengrass.html">Greengrass</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../GuardDuty.html">GuardDuty</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Health.html">Health</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../IAM.html">IAM</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ImportExport.html">ImportExport</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Inspector.html">Inspector</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../IoT.html">IoT</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../IoT1ClickDevicesService.html">IoT1ClickDevicesService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../IoT1ClickProjects.html">IoT1ClickProjects</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../IoTAnalytics.html">IoTAnalytics</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../IoTDataPlane.html">IoTDataPlane</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../IoTJobsDataPlane.html">IoTJobsDataPlane</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Kinesis.html">Kinesis</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../KinesisAnalytics.html">KinesisAnalytics</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../KinesisVideo.html">KinesisVideo</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../KinesisVideoArchivedMedia.html">KinesisVideoArchivedMedia</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../KinesisVideoMedia.html">KinesisVideoMedia</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../KMS.html">KMS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Lambda.html">Lambda</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../LexModelBuildingService.html">LexModelBuildingService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../LexRuntimeService.html">LexRuntimeService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Lightsail.html">Lightsail</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MachineLearning.html">MachineLearning</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Macie.html">Macie</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MarketplaceCommerceAnalytics.html">MarketplaceCommerceAnalytics</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MarketplaceEntitlementService.html">MarketplaceEntitlementService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MarketplaceMetering.html">MarketplaceMetering</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MediaConvert.html">MediaConvert</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MediaLive.html">MediaLive</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MediaPackage.html">MediaPackage</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MediaStore.html">MediaStore</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MediaStoreData.html">MediaStoreData</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MediaTailor.html">MediaTailor</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MigrationHub.html">MigrationHub</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Mobile.html">Mobile</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MobileAnalytics.html">MobileAnalytics</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MQ.html">MQ</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../MTurk.html">MTurk</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Neptune.html">Neptune</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../OpsWorks.html">OpsWorks</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../OpsWorksCM.html">OpsWorksCM</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Organizations.html">Organizations</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../PI.html">PI</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Pinpoint.html">Pinpoint</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Polly.html">Polly</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Pricing.html">Pricing</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../RDS.html">RDS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Redshift.html">Redshift</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Rekognition.html">Rekognition</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ResourceGroups.html">ResourceGroups</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ResourceGroupsTaggingAPI.html">ResourceGroupsTaggingAPI</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Route53.html">Route53</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Route53Domains.html">Route53Domains</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../S3.html">S3</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SageMaker.html">SageMaker</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SageMakerRuntime.html">SageMakerRuntime</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SecretsManager.html">SecretsManager</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ServerlessApplicationRepository.html">ServerlessApplicationRepository</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ServiceCatalog.html">ServiceCatalog</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../ServiceDiscovery.html">ServiceDiscovery</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SES.html">SES</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SFN.html">SFN</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Shield.html">Shield</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SimpleDB.html">SimpleDB</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SMS.html">SMS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Snowball.html">Snowball</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SNS.html">SNS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SQS.html">SQS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SSM.html">SSM</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../StorageGateway.html">StorageGateway</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../STS.html">STS</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Support.html">Support</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../SWF.html">SWF</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../TranscribeService.html">TranscribeService</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Translate.html">Translate</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../WAF.html">WAF</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../WAFRegional.html">WAFRegional</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../WorkDocs.html">WorkDocs</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../WorkMail.html">WorkMail</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../WorkSpaces.html">WorkSpaces</a>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../XRay.html">XRay</a>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>HistoryEvent</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">HistoryEvent</span> <span class="p">:</span> <span class="kt">AWSShape</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SFNAAV12HistoryEventV8_membersSay15AWSSDKSwiftCore14AWSShapeMemberVGvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/_members" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SFNAAV12HistoryEventV8_membersSay15AWSSDKSwiftCore14AWSShapeMemberVGvpZ">_members</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">_members</span><span class="p">:</span> <span class="p">[</span><span class="kt">AWSShapeMember</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SFNAAV12HistoryEventV017activitySucceededC7DetailsAB08ActivityecF0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/activitySucceededEventDetails" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SFNAAV12HistoryEventV017activitySucceededC7DetailsAB08ActivityecF0VSgvp">activitySucceededEventDetails</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">activitySucceededEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/ActivitySucceededEventDetails.html">ActivitySucceededEventDetails</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SFNAAV12HistoryEventV017activityScheduledC7DetailsAB08ActivityecF0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/activityScheduledEventDetails" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SFNAAV12HistoryEventV017activityScheduledC7DetailsAB08ActivityecF0VSgvp">activityScheduledEventDetails</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">activityScheduledEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/ActivityScheduledEventDetails.html">ActivityScheduledEventDetails</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SFNAAV12HistoryEventV015activityStartedC7DetailsAB08ActivityecF0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/activityStartedEventDetails" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SFNAAV12HistoryEventV015activityStartedC7DetailsAB08ActivityecF0VSgvp">activityStartedEventDetails</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">activityStartedEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/ActivityStartedEventDetails.html">ActivityStartedEventDetails</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SFNAAV12HistoryEventV015executionFailedC7DetailsAB09ExecutionecF0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/executionFailedEventDetails" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SFNAAV12HistoryEventV015executionFailedC7DetailsAB09ExecutionecF0VSgvp">executionFailedEventDetails</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">executionFailedEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/ExecutionFailedEventDetails.html">ExecutionFailedEventDetails</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SFNAAV12HistoryEventV4typeAB0bC4TypeOvp"></a>
+                    <a name="//apple_ref/swift/Property/type" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SFNAAV12HistoryEventV4typeAB0bC4TypeOvp">type</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The type of the event.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">type</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/HistoryEventType.html">HistoryEventType</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SFNAAV12HistoryEventV022lambdaFunctionTimedOutC7DetailsAB06LambdaefgcH0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/lambdaFunctionTimedOutEventDetails" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SFNAAV12HistoryEventV022lambdaFunctionTimedOutC7DetailsAB06LambdaefgcH0VSgvp">lambdaFunctionTimedOutEventDetails</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">lambdaFunctionTimedOutEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/LambdaFunctionTimedOutEventDetails.html">LambdaFunctionTimedOutEventDetails</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SFNAAV12HistoryEventV017executionTimedOutC7DetailsAB09ExecutionefcG0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/executionTimedOutEventDetails" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SFNAAV12HistoryEventV017executionTimedOutC7DetailsAB09ExecutionefcG0VSgvp">executionTimedOutEventDetails</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">executionTimedOutEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/ExecutionTimedOutEventDetails.html">ExecutionTimedOutEventDetails</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SFNAAV12HistoryEventV023lambdaFunctionScheduledC7DetailsAB06LambdaefcG0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/lambdaFunctionScheduledEventDetails" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SFNAAV12HistoryEventV023lambdaFunctionScheduledC7DetailsAB06LambdaefcG0VSgvp">lambdaFunctionScheduledEventDetails</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">lambdaFunctionScheduledEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/LambdaFunctionScheduledEventDetails.html">LambdaFunctionScheduledEventDetails</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SFNAAV12HistoryEventV011stateExitedC7DetailsAB05StateecF0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/stateExitedEventDetails" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SFNAAV12HistoryEventV011stateExitedC7DetailsAB05StateecF0VSgvp">stateExitedEventDetails</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">stateExitedEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/StateExitedEventDetails.html">StateExitedEventDetails</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SFNAAV12HistoryEventV020lambdaFunctionFailedC7DetailsAB06LambdaefcG0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/lambdaFunctionFailedEventDetails" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SFNAAV12HistoryEventV020lambdaFunctionFailedC7DetailsAB06LambdaefcG0VSgvp">lambdaFunctionFailedEventDetails</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">lambdaFunctionFailedEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/LambdaFunctionFailedEventDetails.html">LambdaFunctionFailedEventDetails</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SFNAAV12HistoryEventV022activityScheduleFailedC7DetailsAB08ActivityefcG0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/activityScheduleFailedEventDetails" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SFNAAV12HistoryEventV022activityScheduleFailedC7DetailsAB08ActivityefcG0VSgvp">activityScheduleFailedEventDetails</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Contains details about an activity schedule event which failed during an execution.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">activityScheduleFailedEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/ActivityScheduleFailedEventDetails.html">ActivityScheduleFailedEventDetails</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SFNAAV12HistoryEventV016executionAbortedC7DetailsAB09ExecutionecF0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/executionAbortedEventDetails" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SFNAAV12HistoryEventV016executionAbortedC7DetailsAB09ExecutionecF0VSgvp">executionAbortedEventDetails</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">executionAbortedEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/ExecutionAbortedEventDetails.html">ExecutionAbortedEventDetails</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SFNAAV12HistoryEventV9timestamp15AWSSDKSwiftCore9TimeStampVvp"></a>
+                    <a name="//apple_ref/swift/Property/timestamp" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SFNAAV12HistoryEventV9timestamp15AWSSDKSwiftCore9TimeStampVvp">timestamp</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The date the event occurred.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">timestamp</span><span class="p">:</span> <span class="kt">TimeStamp</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SFNAAV12HistoryEventV025lambdaFunctionStartFailedC7DetailsAB06LambdaefgcH0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/lambdaFunctionStartFailedEventDetails" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SFNAAV12HistoryEventV025lambdaFunctionStartFailedC7DetailsAB06LambdaefgcH0VSgvp">lambdaFunctionStartFailedEventDetails</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Contains details about a lambda function which failed to start during an execution.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">lambdaFunctionStartFailedEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/LambdaFunctionStartFailedEventDetails.html">LambdaFunctionStartFailedEventDetails</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SFNAAV12HistoryEventV014activityFailedC7DetailsAB08ActivityecF0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/activityFailedEventDetails" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SFNAAV12HistoryEventV014activityFailedC7DetailsAB08ActivityecF0VSgvp">activityFailedEventDetails</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">activityFailedEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/ActivityFailedEventDetails.html">ActivityFailedEventDetails</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SFNAAV12HistoryEventV2ids5Int64Vvp"></a>
+                    <a name="//apple_ref/swift/Property/id" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SFNAAV12HistoryEventV2ids5Int64Vvp">id</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The id of the event. Events are numbered sequentially, starting at one.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">id</span><span class="p">:</span> <span class="kt">Int64</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SFNAAV12HistoryEventV028lambdaFunctionScheduleFailedC7DetailsAB06LambdaefgcH0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/lambdaFunctionScheduleFailedEventDetails" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SFNAAV12HistoryEventV028lambdaFunctionScheduleFailedC7DetailsAB06LambdaefgcH0VSgvp">lambdaFunctionScheduleFailedEventDetails</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">lambdaFunctionScheduleFailedEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/LambdaFunctionScheduleFailedEventDetails.html">LambdaFunctionScheduleFailedEventDetails</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SFNAAV12HistoryEventV016activityTimedOutC7DetailsAB08ActivityefcG0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/activityTimedOutEventDetails" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SFNAAV12HistoryEventV016activityTimedOutC7DetailsAB08ActivityefcG0VSgvp">activityTimedOutEventDetails</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">activityTimedOutEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/ActivityTimedOutEventDetails.html">ActivityTimedOutEventDetails</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SFNAAV12HistoryEventV023lambdaFunctionSucceededC7DetailsAB06LambdaefcG0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/lambdaFunctionSucceededEventDetails" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SFNAAV12HistoryEventV023lambdaFunctionSucceededC7DetailsAB06LambdaefcG0VSgvp">lambdaFunctionSucceededEventDetails</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Contains details about a lambda function which terminated successfully during an execution.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">lambdaFunctionSucceededEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/LambdaFunctionSucceededEventDetails.html">LambdaFunctionSucceededEventDetails</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SFNAAV12HistoryEventV012stateEnteredC7DetailsAB05StateecF0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/stateEnteredEventDetails" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SFNAAV12HistoryEventV012stateEnteredC7DetailsAB05StateecF0VSgvp">stateEnteredEventDetails</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">stateEnteredEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/StateEnteredEventDetails.html">StateEnteredEventDetails</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SFNAAV12HistoryEventV016executionStartedC7DetailsAB09ExecutionecF0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/executionStartedEventDetails" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SFNAAV12HistoryEventV016executionStartedC7DetailsAB09ExecutionecF0VSgvp">executionStartedEventDetails</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">executionStartedEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/ExecutionStartedEventDetails.html">ExecutionStartedEventDetails</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SFNAAV12HistoryEventV018executionSucceededC7DetailsAB09ExecutionecF0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/executionSucceededEventDetails" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SFNAAV12HistoryEventV018executionSucceededC7DetailsAB09ExecutionecF0VSgvp">executionSucceededEventDetails</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">executionSucceededEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/ExecutionSucceededEventDetails.html">ExecutionSucceededEventDetails</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SFNAAV12HistoryEventV08previousC2Ids5Int64VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/previousEventId" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SFNAAV12HistoryEventV08previousC2Ids5Int64VSgvp">previousEventId</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The id of the previous event.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">previousEventId</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SFNAAV12HistoryEventV017activitySucceededC7Details0d9ScheduledcF00d7StartedcF0015executionFailedcF04type022lambdaFunctionTimedOutcF00inocF00lmgcF0011stateExitedcF00lmjcF00d8SchedulejcF00i7AbortedcF09timestamp0lm5StartjcF00djcF02id0lmrjcF00dnocF00lmecF00p7EnteredcF00ihcF00iecF008previousC2IdAdB08ActivityecF0VSg_AB0zgcF0VSgAB0zhcF0VSgAB09ExecutionjcF0VSgAB0bC4TypeOAB06LambdamnocF0VSgAB09ExecutionnocF0VSgAB06LambdamgcF0VSgAB05StateqcF0VSgAB06LambdamjcF0VSgAB0zrjcF0VSgAB09ExecutionscF0VSg15AWSSDKSwiftCore9TimeStampVAB06LambdamujcF0VSgAB0zjcF0VSgs5Int64VAB06LambdamrjcF0VSgAB0znocF0VSgAB06LambdamecF0VSgAB05StatewcF0VSgAB09ExecutionhcF0VSgAB09ExecutionecF0VSgA45_Sgtcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(activitySucceededEventDetails:activityScheduledEventDetails:activityStartedEventDetails:executionFailedEventDetails:type:lambdaFunctionTimedOutEventDetails:executionTimedOutEventDetails:lambdaFunctionScheduledEventDetails:stateExitedEventDetails:lambdaFunctionFailedEventDetails:activityScheduleFailedEventDetails:executionAbortedEventDetails:timestamp:lambdaFunctionStartFailedEventDetails:activityFailedEventDetails:id:lambdaFunctionScheduleFailedEventDetails:activityTimedOutEventDetails:lambdaFunctionSucceededEventDetails:stateEnteredEventDetails:executionStartedEventDetails:executionSucceededEventDetails:previousEventId:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SFNAAV12HistoryEventV017activitySucceededC7Details0d9ScheduledcF00d7StartedcF0015executionFailedcF04type022lambdaFunctionTimedOutcF00inocF00lmgcF0011stateExitedcF00lmjcF00d8SchedulejcF00i7AbortedcF09timestamp0lm5StartjcF00djcF02id0lmrjcF00dnocF00lmecF00p7EnteredcF00ihcF00iecF008previousC2IdAdB08ActivityecF0VSg_AB0zgcF0VSgAB0zhcF0VSgAB09ExecutionjcF0VSgAB0bC4TypeOAB06LambdamnocF0VSgAB09ExecutionnocF0VSgAB06LambdamgcF0VSgAB05StateqcF0VSgAB06LambdamjcF0VSgAB0zrjcF0VSgAB09ExecutionscF0VSg15AWSSDKSwiftCore9TimeStampVAB06LambdamujcF0VSgAB0zjcF0VSgs5Int64VAB06LambdamrjcF0VSgAB0znocF0VSgAB06LambdamecF0VSgAB05StatewcF0VSgAB09ExecutionhcF0VSgAB09ExecutionecF0VSgA45_Sgtcfc">init(activitySucceededEventDetails:activityScheduledEventDetails:activityStartedEventDetails:executionFailedEventDetails:type:lambdaFunctionTimedOutEventDetails:executionTimedOutEventDetails:lambdaFunctionScheduledEventDetails:stateExitedEventDetails:lambdaFunctionFailedEventDetails:activityScheduleFailedEventDetails:executionAbortedEventDetails:timestamp:lambdaFunctionStartFailedEventDetails:activityFailedEventDetails:id:lambdaFunctionScheduleFailedEventDetails:activityTimedOutEventDetails:lambdaFunctionSucceededEventDetails:stateEnteredEventDetails:executionStartedEventDetails:executionSucceededEventDetails:previousEventId:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">activitySucceededEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/ActivitySucceededEventDetails.html">ActivitySucceededEventDetails</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">activityScheduledEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/ActivityScheduledEventDetails.html">ActivityScheduledEventDetails</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">activityStartedEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/ActivityStartedEventDetails.html">ActivityStartedEventDetails</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">executionFailedEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/ExecutionFailedEventDetails.html">ExecutionFailedEventDetails</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">type</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/HistoryEventType.html">HistoryEventType</a></span><span class="p">,</span> <span class="nv">lambdaFunctionTimedOutEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/LambdaFunctionTimedOutEventDetails.html">LambdaFunctionTimedOutEventDetails</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">executionTimedOutEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/ExecutionTimedOutEventDetails.html">ExecutionTimedOutEventDetails</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">lambdaFunctionScheduledEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/LambdaFunctionScheduledEventDetails.html">LambdaFunctionScheduledEventDetails</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">stateExitedEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/StateExitedEventDetails.html">StateExitedEventDetails</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">lambdaFunctionFailedEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/LambdaFunctionFailedEventDetails.html">LambdaFunctionFailedEventDetails</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">activityScheduleFailedEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/ActivityScheduleFailedEventDetails.html">ActivityScheduleFailedEventDetails</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">executionAbortedEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/ExecutionAbortedEventDetails.html">ExecutionAbortedEventDetails</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">timestamp</span><span class="p">:</span> <span class="kt">TimeStamp</span><span class="p">,</span> <span class="nv">lambdaFunctionStartFailedEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/LambdaFunctionStartFailedEventDetails.html">LambdaFunctionStartFailedEventDetails</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">activityFailedEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/ActivityFailedEventDetails.html">ActivityFailedEventDetails</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">id</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">,</span> <span class="nv">lambdaFunctionScheduleFailedEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/LambdaFunctionScheduleFailedEventDetails.html">LambdaFunctionScheduleFailedEventDetails</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">activityTimedOutEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/ActivityTimedOutEventDetails.html">ActivityTimedOutEventDetails</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">lambdaFunctionSucceededEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/LambdaFunctionSucceededEventDetails.html">LambdaFunctionSucceededEventDetails</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">stateEnteredEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/StateEnteredEventDetails.html">StateEnteredEventDetails</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">executionStartedEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/ExecutionStartedEventDetails.html">ExecutionStartedEventDetails</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">executionSucceededEventDetails</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SFN/ExecutionSucceededEventDetails.html">ExecutionSucceededEventDetails</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">previousEventId</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>© Copyright (c) 2018 Yuki Takei(noppoMan), Joe Smith(Yasumoto), Jonathan McAllister(jonnymacs)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
